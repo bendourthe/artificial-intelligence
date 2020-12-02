@@ -4,7 +4,7 @@ ___
 ___
 <center><em>For more information, visit <a href='http://www.dourthe.tech'>www.dourthe.tech</a></em></center>
 
-# Artificial intelligence projects
+# Artificial Intelligence Projects
 
 ## REPOSITORY CONTENT
 
