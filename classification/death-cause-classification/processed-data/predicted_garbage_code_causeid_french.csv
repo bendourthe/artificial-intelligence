@@ -1,0 +1,784 @@
+predicted_causeid,code,short_desc,long_desc,major,three_digit
+neo,A170,MENINGITE TUBERC.,Méningite tuberculeuse (G01*),Tuberculose du système nerveux,A17
+neo,A180,TUBERC. DES OS ET DES ARTIC.,Tuberculose des os et des articulations,Tuberculose d'autres organes,A18
+neo,A310,INFECT. PULM. A MYCOBACTERIES ATYPIQUES,Infection pulmonaire à mycobactéries atypiques,Infections dues à d'autres mycobactéries,A31
+neo,A319,"INFECT. A MYCOBACTERIES ATYPIQUES, SAI","Infection à mycobacteries atypiques, sans précision",Infections dues à d'autres mycobactéries,A31
+neo,A390,MENINGITE A MENINGO.,Méningite à méningocoques (G01*),Infection à méningocoques,A39
+neo,A400,"SEPSIS A STREPTO., GROUPE A","Sepsis à streptocoques, groupe A",Sepsis à streptocoques,A40
+neo,A401,"SEPSIS A STREPTO., GROUPE B","Sepsis à streptocoques, groupe B",Sepsis à streptocoques,A40
+neo,A402,"SEPSIS À STREPTOCOQUES, GROUPE D ET ENTÉROCOQUES","Sepsis à streptocoques, groupe D et entérocoques",Sepsis à streptocoques,A40
+neo,A403,SEPSIS A STREPTOCOCCUS PNEUMONIAE,Sepsis à Streptococcus pneumoniae,Sepsis à streptocoques,A40
+neo,A408,"SEPSIS A STREPTO., NCA",Autres sepsis à streptocoques,Sepsis à streptocoques,A40
+neo,A409,"SEPSIS A STREPTO., SAI","Sepsis à streptocoques, sans précision",Sepsis à streptocoques,A40
+neo,A410,SEPSIS A STAPHYLO. DORES,Sepsis à staphylocoques dorés,Autres sepsis,A41
+neo,A411,SEPSIS A D'AUTRES STAPHYLO. PREC.,Sepsis à d'autres staphylocoques précisés,Autres sepsis,A41
+neo,A412,"SEPSIS A STAPHYLO., SAI",Sepsis à staphylocoques non précisés,Autres sepsis,A41
+neo,A413,SEPSIS A HAEMOPHILUS INFLUENZAE,Sepsis à Haemophilus influenzae,Autres sepsis,A41
+neo,A414,SEPSIS A MICRO-ORG. ANAEROBIES,Sepsis à microorganismes anaérobies,Autres sepsis,A41
+neo,A415,SEPSIS A D'AUTRES MICRO-ORG. GRAM NEGATIF,Sepsis à d'autres microorganismes Gram négatif,Autres sepsis,A41
+neo,A418,"SEPSIS PREC., NCA",Autres sepsis précisés,Autres sepsis,A41
+neo,A419,"SEPSIS, SAI","Sepsis, sans précision",Autres sepsis,A41
+neo,A430,NOCARDIOSE PULM.,Nocardiose pulmonaire,Nocardiose,A43
+neo,A438,"NOCARDIOSE, NCA",Autres formes de nocardiose,Nocardiose,A43
+neo,A439,"NOCARDIOSE, SAI","Nocardiose, sans précision",Nocardiose,A43
+neo,A480,GANGRENE GAZEUSE,Gangrène gazeuse,"Autres maladies bactériennes, non classées ailleurs",A48
+otherncd,A483,SYND. DU CHOC TOXIQUE,Syndrome du choc toxique,"Autres maladies bactériennes, non classées ailleurs",A48
+neo,A488,"MAL. BACT. PREC., NCA",Autres maladies bactériennes précisées,"Autres maladies bactériennes, non classées ailleurs",A48
+neo,A490,"INFECT. A STAPHYLO., SAI","Infection à staphylocoques, sans précision","Infection bactérienne, siège non précisé",A49
+neo,A491,"INFECTION À STREPTOCOQUES ET ENTÉROCOQUES, SIÈGE NON PRÉCISÉ","Infection à streptocoques et entérocoques, siège non précisé","Infection bactérienne, siège non précisé",A49
+neo,A498,"INFECT. BACT. NCA, SIEGE SAI","Autres infections bactériennes, siège non précisé","Infection bactérienne, siège non précisé",A49
+neo,A499,"INFECT. BACT., SAI","Infection bactérienne, sans précision","Infection bactérienne, siège non précisé",A49
+neo,A810,MAL. DE CREUTZFELDT-JAKOB,Maladie de Creutzfeldt-Jakob,"Infections atypiques à virus, du système nerveux central",A81
+neo,B180,HEPATITE VIRALE CHRON. B AVEC AGENT DELTA,Hépatite virale chronique B avec agent delta,Hépatite virale chronique,B18
+neo,B200,MAL. PAR VIH A L'ORIGINE D'UNE INFECT. MYCOBACTERIENNE,Maladie par VIH à l'origine d'une infection mycobactérienne,"Immunodéficience humaine virale [VIH], à l'origine de maladies infectieuses et parasitaires",B20
+neo,B210,MAL. PAR VIH A L'ORIGINE D'UN SARCOME DE KAPOSI,Maladie par VIH à l'origine d'un sarcome de Kaposi,"Immunodéficience humaine virale [VIH], à l'origine de tumeurs malignes",B21
+neo,B220,MAL. PAR VIH A L'ORIGINE D'UNE ENCEPHALOPATHIE,Maladie par VIH à l'origine d'une encéphalopathie,"Immunodéficience humaine virale [VIH], à l'origine d'autres affections précisées",B22
+neo,B250,PNEUMOPATHIE A CYTOMEGALOVIRUS,Pneumopathie à cytomégalovirus (J17.1*),Maladie à cytomégalovirus,B25
+cvd,B270,MONONUCLEOSE DUE A HERPESVIRUS GAMMA,Mononucléose due à herpèsvirus gamma,Mononucléose infectieuse,B27
+neo,B341,"INFECT. ENTEROVIRALE, SAI","Infection entérovirale, sans précision","Infection virale, siège non précisé",B34
+neo,B348,"INFECT. VIRALES NCA, SIEGE SAI","Autres infections virales, siège non précisé","Infection virale, siège non précisé",B34
+neo,B349,"INFECT. VIRALE, SAI","Infection virale, sans précision","Infection virale, siège non précisé",B34
+neo,B369,"MYCOSE SUPERF., SAI","Mycose superficielle, sans précision",Autres mycoses superficielles,B36
+neo,B370,STOMATITE A CANDIDA,Stomatite à Candida,Candidose,B37
+neo,B371,CANDIDOSE PULM.,Candidose pulmonaire,Candidose,B37
+neo,B374,CANDIDOSE D'AUTRES LOC. URO-GEN.,Candidose d'autres localisations uro-génitales,Candidose,B37
+neo,B375,MENINGITE A CANDIDA,Méningite à Candida (G02.1*),Candidose,B37
+neo,B376,ENDOCARDITE A CANDIDA,Endocardite à Candida (I39.8*),Candidose,B37
+neo,B377,SEPSIS A CANDIDA,Sepsis à Candida,Candidose,B37
+neo,B378,"LOC. NCA, DE CANDIDOSE",Autres localisations de candidose,Candidose,B37
+neo,B379,"CANDIDOSE, SAI","Candidose, sans précision",Candidose,B37
+neo,B382,"COCCIDIOIDOMYCOSE PULM., SAI","Coccidioïdomycose pulmonaire, sans précision",Coccidioïdomycose,B38
+neo,B440,ASPERGILLOSE PULM. INVASIVE,Aspergillose pulmonaire invasive,Aspergillose,B44
+neo,B441,"ASPERGILLOSES PULM., NCA",Autres aspergilloses pulmonaires,Aspergillose,B44
+neo,B447,ASPERGILLOSE DISSEMINEE,Aspergillose disséminée,Aspergillose,B44
+neo,B448,"ASPERGILLOSE, NCA",Autres formes d'aspergillose,Aspergillose,B44
+neo,B449,"ASPERGILLOSE, SAI","Aspergillose, sans précision",Aspergillose,B44
+neo,B450,CRYPTOCOCCOSE PULM.,Cryptococcose pulmonaire,Cryptococcose,B45
+neo,B451,CRYPTOCOCCOSE CEREB.,Cryptococcose cérébrale,Cryptococcose,B45
+neo,B457,CRYPTOCOCCOSE DISSEMINEE,Cryptococcose disséminée,Cryptococcose,B45
+neo,B465,"MUCORMYCOSE, SAI","Mucormycose, sans précision",Zygomycose,B46
+neo,B582,MENINGO-ENCEPHALITE A TOXOPLASMA,Méningo-encéphalite à Toxoplasma (G05.2*),Toxoplasmose,B58
+neo,B589,"TOXOPLASMOSE, SAI","Toxoplasmose, sans précision",Toxoplasmose,B58
+neo,B787,ANGUILLULOSE DISSEMINEE,Anguillulose disséminée,Anguillulose [strongyloïdose],B78
+neo,B789,"ANGUILLULOSE, SAI","Anguillulose, sans précision",Anguillulose [strongyloïdose],B78
+neo,B900,SEQ. DE TUBERC. DU S.N.C.,Séquelles de tuberculose du système nerveux central,Séquelles de tuberculose,B90
+neo,B948,"SEQ. DE MAL. INFECT. ET PARASIT., NCA",Séquelles d'autres maladies infectieuses et parasitaires précisées,"Séquelles de maladies infectieuses et parasitaires, autres et non précisées",B94
+neo,B99,"MAL. INFECT., NCA OU SAI","Maladies infectieuses, autres et non précisées","Maladies infectieuses, autres et non précisées",B99
+neo,C080,T.M. DE LA GLD. SOUS-MAXILLAIRE,Tumeur maligne de la glande sous-maxillaire,"Tumeur maligne des glandes salivaires principales, autres et non précisées",C08
+neo,C100,T.M. DU SILLON GLOSSO-EPIGLOTTIQUE,Tumeur maligne du sillon glosso-épiglottique,Tumeur maligne de l'oropharynx,C10
+neo,C130,T.M. DE LA REGION RETRO-CRICOIDIENNE,Tumeur maligne de la région rétro-cricoïdienne,Tumeur maligne de l'hypopharynx,C13
+neo,C140,"T.M. DU PHARYNX, SAI","Tumeur maligne du pharynx, sans précision","Tumeur maligne de la lèvre, de la cavité buccale et du pharynx, de sièges autres et mal définis",C14
+neo,C148,"T.M. A LOC. CONTIGUES DE LA LEVRE, DE LA CAV. BUCC. ET DU PHARYNX","Tumeur maligne à localisations contiguës de la lèvre, de la cavité buccale et du pharynx","Tumeur maligne de la lèvre, de la cavité buccale et du pharynx, de sièges autres et mal définis",C14
+neo,C150,T.M. DE L'OESOPHAGE CERV.,Tumeur maligne de l'oesophage cervical,Tumeur maligne de l'oesophage,C15
+neo,C160,T.M. DU CARDIA,Tumeur maligne du cardia,Tumeur maligne de l'estomac,C16
+neo,C170,T.M. DU DUODENUM,Tumeur maligne du duodénum,Tumeur maligne de l'intestin grêle,C17
+neo,C180,T.M. DU CAECUM,Tumeur maligne du caecum,Tumeur maligne du côlon,C18
+neo,C210,"T.M. DE L'ANUS, SAI","Tumeur maligne de l'anus, sans précision",Tumeur maligne de l'anus et du canal anal,C21
+neo,C220,CARC. HEPATOCELLULAIRE,Carcinome hépatocellulaire,Tumeur maligne du foie et des voies biliaires intrahépatiques,C22
+neo,C240,T.M. DU CANAL BIL. EXTRA-HEPATIQUE,Tumeur maligne du canal biliaire extra-hépatique,"Tumeurs malignes des voies biliaires, autres et non précisées",C24
+neo,C250,T.M. DE LA TETE DU PANCREAS,Tumeur maligne de la tête du pancréas,Tumeur maligne du pancréas,C25
+otherncd,C260,T.M. DU TRACTUS INTEST.,"Tumeur maligne du tractus intestinal, (partie non précisée)","Tumeur maligne des organes digestifs, de sièges autres et mal définis",C26
+neo,C261,T.M. DE LA RATE,Tumeur maligne de la rate,"Tumeur maligne des organes digestifs, de sièges autres et mal définis",C26
+neo,C268,T.M. A LOC. CONTIGUES DE L'APP. DIG.,Tumeur maligne à localisations contiguës de l'appareil digestif,"Tumeur maligne des organes digestifs, de sièges autres et mal définis",C26
+neo,C269,T.M. DE SIEGES MAL DEFINIS DE L'APP. DIG.,Tumeur maligne de sièges mal définis de l'appareil digestif,"Tumeur maligne des organes digestifs, de sièges autres et mal définis",C26
+neo,C300,T.M. DES FOSSES NASALES,Tumeur maligne des fosses nasales,Tumeur maligne des fosses nasales et de l'oreille moyenne,C30
+neo,C310,T.M. DU SINUS MAXILLAIRE,Tumeur maligne du sinus maxillaire,Tumeur maligne des sinus de la face,C31
+neo,C320,T.M. DE LA GLOTTE,Tumeur maligne de la glotte,Tumeur maligne du larynx,C32
+neo,C340,T.M. DE LA BRONCHE SOUCHE,Tumeur maligne de la bronche souche,Tumeur maligne des bronches et du poumon,C34
+neo,C380,T.M. DU COEUR,Tumeur maligne du coeur,"Tumeur maligne du coeur, du médiastin et de la plèvre",C38
+neo,C399,T.M. DE SIEGES MAL DEFINIS DE L'APP. RESP.,Tumeur maligne de sièges mal définis de l'appareil respiratoire,"Tumeur maligne de l'appareil respiratoire et des organes intrathoraciques, de sièges autres et mal définis",C39
+neo,C400,T.M. DE L'OMOPLATE ET DES OS LONGS DU MB. SUP.,Tumeur maligne de l'omoplate et des os longs du membre supérieur,Tumeur maligne des os et du cartilage articulaire des membres,C40
+neo,C410,T.M. DES OS DU CRANE ET DE LA FACE,Tumeur maligne des os du crâne et de la face,"Tumeur maligne des os et du cartilage articulaire, de sièges autres et non précisés",C41
+neo,C430,MELANOME MALIN DE LA LEVRE,Mélanome malin de la lèvre,Mélanome malin de la peau,C43
+neo,C440,T.M. DE LA FACE CUTANEE DE LA LEVRE,Tumeur maligne de la face cutanée de la lèvre,Autres tumeurs malignes de la peau,C44
+neo,C450,MESOTHELIOME DE LA PLEVRE,Mésothéliome de la plèvre,Mésothéliome,C45
+neo,C460,SARCOME DE KAPOSI DE LA PEAU,Sarcome de Kaposi de la peau,Sarcome de Kaposi,C46
+neo,C469,"SARCOME DE KAPOSI, SAI","Sarcome de Kaposi, sans précision",Sarcome de Kaposi,C46
+neo,C470,"T.M. DES NERFS PERIPH. DE TETE, FACE, COU","Tumeur maligne des nerfs périphériques de la tête, de la face et du cou",Tumeur maligne des nerfs périphériques et du système nerveux autonome,C47
+neo,C480,T.M. DU RETROPERITOINE,Tumeur maligne du rétropéritoine,Tumeur maligne du rétropéritoine et du péritoine,C48
+neo,C490,"T.M. DU TISSU CONJ. ET DES TISSUS MOUS NCA DE TETE, FACE, COU","Tumeur maligne du tissu conjonctif et des autres tissus mous de la tête, de la face et du cou",Tumeur maligne du tissu conjonctif et des autres tissus mous,C49
+neo,C500,T.M. DU MAMELON ET DE L'AREOLE,Tumeur maligne du mamelon et de l'aréole,Tumeur maligne du sein,C50
+neo,C510,T.M. DE LA GD. LEVRE,Tumeur maligne de la grande lèvre,Tumeur maligne de la vulve,C51
+neo,C530,T.M. DE L'ENDOCOL,Tumeur maligne de l'endocol,Tumeur maligne du col de l'utérus,C53
+neo,C570,T.M. D'UNE TROMPE DE FALLOPE,Tumeur maligne d'une trompe de Fallope,"Tumeur maligne des organes génitaux de la femme, autres et non précisés",C57
+neo,C579,"T.M. D'UN ORG. GEN. DE LA FEMME, SAI","Tumeur maligne d'un organe génital de la femme, sans précision","Tumeur maligne des organes génitaux de la femme, autres et non précisés",C57
+neo,C639,"T.M. D'UN ORG. GEN. DE L'HOMME, SAI","Tumeur maligne d'un organe génital de l'homme, sans précision","Tumeur maligne des organes génitaux de l'homme, autres et non précisés",C63
+neo,C680,T.M. DE L'URETRE,Tumeur maligne de l'urètre,"Tumeur maligne des organes urinaires, autres et non précisés",C68
+neo,C689,"T.M. D'UN ORG. URIN., SAI","Tumeur maligne d'un organe urinaire, sans précision","Tumeur maligne des organes urinaires, autres et non précisés",C68
+neo,C690,T.M. DE LA CONJONCTIVE,Tumeur maligne de la conjonctive,Tumeur maligne de l'oeil et de ses annexes,C69
+neo,C700,T.M. DES MENINGES CEREB.,Tumeur maligne des méninges cérébrales,Tumeur maligne des méninges,C70
+neo,C710,"T.M. DU CERVEAU, SAUF LOBES ET VENTRICULES","Tumeur maligne du cerveau, sauf lobes et ventricules",Tumeur maligne de l'encéphale,C71
+neo,C720,T.M. DE LA MOELLE EP.,Tumeur maligne de la moelle épinière,"Tumeur maligne de la moelle épinière, des nerfs crâniens et d'autres parties du système nerveux central",C72
+neo,C740,T.M. DU CORTEX DE LA SURRENALE,Tumeur maligne du cortex de la surrénale,Tumeur maligne de la surrénale,C74
+neo,C750,T.M. DE LA PARATHYROIDE,Tumeur maligne de la parathyroïde,Tumeur maligne d'autres glandes endocrines et structures apparentées,C75
+otherncd,C759,"T.M. D'UNE GLD. ENDOCRINE, SAI","Tumeur maligne d'une glande endocrine, sans précision",Tumeur maligne d'autres glandes endocrines et structures apparentées,C75
+neo,C760,"T.M. SIEGE MAL DEF. DE TETE, FACE, COU","Tumeur maligne de siège mal défini de la tête, de la face et du cou",Tumeur maligne de sièges autres et mal définis,C76
+neo,C761,T.M. SIEGE MAL DEF. DU THOR.,Tumeur maligne de siège mal défini du thorax,Tumeur maligne de sièges autres et mal définis,C76
+neo,C762,T.M. SIEGE MAL DEF. DE L'ABDO.,Tumeur maligne de siège mal défini de l'abdomen,Tumeur maligne de sièges autres et mal définis,C76
+neo,C763,T.M. SIEGE MAL DEF. DU PELVIS,Tumeur maligne de siège mal défini du pelvis,Tumeur maligne de sièges autres et mal définis,C76
+neo,C765,T.M. SIEGE MAL DEF. D'UN MB. INF.,Tumeur maligne de siège mal défini d'un membre inférieur,Tumeur maligne de sièges autres et mal définis,C76
+neo,C767,T.M. D'AUTRES SIEGES MAL DEFINIS,Tumeur maligne d'autres sièges mal définis,Tumeur maligne de sièges autres et mal définis,C76
+neo,C768,T.M. A LOC. CONTIGUES SIEGES MAL DEF.,Tumeur maligne à localisations contiguës de sièges autres et mal définis,Tumeur maligne de sièges autres et mal définis,C76
+neo,C779,T.M. IIRE OU SAI D'UN GGL. LYMPH. SAI,"Tumeur maligne secondaire et non précisée d'un ganglion lymphatique, sans précision","Tumeur maligne des ganglions lymphatiques, secondaire et non précisée",C77
+neo,C780,T.M. IIRE. DU POUMON,Tumeur maligne secondaire du poumon,Tumeur maligne secondaire des organes respiratoires et digestifs,C78
+neo,C781,T.M. IIRE. DU MEDIASTIN,Tumeur maligne secondaire du médiastin,Tumeur maligne secondaire des organes respiratoires et digestifs,C78
+neo,C782,T.M. IIRE. DE LA PLEVRE,Tumeur maligne secondaire de la plèvre,Tumeur maligne secondaire des organes respiratoires et digestifs,C78
+neo,C786,T.M. IIRE. DU RETROPERITOINE ET DU PERITOINE,Tumeur maligne secondaire du rétropéritoine et du péritoine,Tumeur maligne secondaire des organes respiratoires et digestifs,C78
+neo,C787,T.M. IIRE. DU FOIE ET V.B. INTRAHEP.,Tumeur maligne secondaire du foie et des voies biliaires intrahépatiques,Tumeur maligne secondaire des organes respiratoires et digestifs,C78
+neo,C788,"T.M. IIRE. DES ORG. DIG., NCA OU SAI","Tumeur maligne secondaire des organes digestifs, autres et non précisés",Tumeur maligne secondaire des organes respiratoires et digestifs,C78
+neo,C792,T.M. IIRE. DE LA PEAU,Tumeur maligne secondaire de la peau,Tumeur maligne secondaire de sièges autres et non précisés,C79
+neo,C793,T.M. IIRE. DU CERVEAU ET DES MENINGES CEREB.,Tumeur maligne secondaire du cerveau et des méninges cérébrales,Tumeur maligne secondaire de sièges autres et non précisés,C79
+neo,C794,"T.M. IIRE. DE PARTIES DU SYST. NERV., NCA OU SAI","Tumeur maligne secondaire de parties du système nerveux, autres et non précisées",Tumeur maligne secondaire de sièges autres et non précisés,C79
+neo,C795,T.M. IIRE. DES OS ET DE LA MOELLE OSSEUSE,Tumeur maligne secondaire des os et de la moelle osseuse,Tumeur maligne secondaire de sièges autres et non précisés,C79
+neo,C798,T.M. IIRE. D'AUTRES SIEGES PREC.,Tumeur maligne secondaire d'autres sièges précisés,Tumeur maligne secondaire de sièges autres et non précisés,C79
+neo,C80,T.M. DE SIEGE SAI,Tumeur maligne de siège non précisé,Tumeur maligne de siège non précisé,C80
+neo,C800,"T.M. DE SIEGE PRIMITIF NON PREC., AINSI DECRIT","Tumeur maligne de siège primitif non précisé, ainsi décrit",Tumeur maligne de siège non précisé,C80
+neo,C809,T.M. DE SIÈGE PRIMITIF SAI,Tumeur maligne de siège primitif non précisé,Tumeur maligne de siège non précisé,C80
+neo,C820,"LYMPHOME FOLLICULAIRE, GRADE I","Lymphome folliculaire, grade I",Lymphome folliculaire,C82
+neo,C830,LYMPHOME A PT. CELL. B,Lymphome à petites cellules B,Lymphome non folliculaire,C83
+neo,C840,MYCOSIS FONGOIDE,Mycosis fongoïde,Lymphomes à cellules T/NK matures,C84
+neo,C850,*** SU11 *** LYMPHOSARCOME,*** SU11 *** Lymphosarcome,"Lymphome non hodgkinien, de types autres et non précisés",C85
+neo,C880,MACROGLOBULINEMIE DE WALDENSTROM,Macroglobulinémie de Waldenström,Maladies immunoprolifératives malignes,C88
+otherncd,C900,MYELOME MULT.,Myélome multiple,Myélome multiple et tumeurs malignes à plasmocytes,C90
+neo,C910,LEUCEMIE LYMPHOBLASTIQUE AIG.,Leucémie lymphoblastique aigüe [LLA],Leucémie lymphoïde,C91
+neo,C920,LEUCEMIE MYELOBLASTIQUE AIG.,Leucémie myéloblastique aigüe [LAM],Leucémie myéloïde,C92
+neo,C930,LEUCEMIE MONOBLASTIQUE/MONOCYTAIRE AIG.,Leucémie monoblastique/monocytaire aigüe,Leucémie monocytaire,C93
+neo,C940,LEUCEMIE ERYTHROIDE AIG.,Leucémie érythroïde aigüe,Autres leucémies à cellules précisées,C94
+neo,C950,LEUCEMIE AIG. A CELL. SAI,Leucémie aiguë à cellules non précisées,Leucémie à cellules non précisées,C95
+neo,D139,T.B. DE SIEGES MAL DEFINIS DE L'APP. DIG.,Tumeur bénigne de sièges mal définis de l'appareil digestif,Tumeurs bénignes de parties autres et mal définies de l'appareil digestif,D13
+neo,D140,"T.B. DE L'OREILLE MOY., DES FOSSES NASALES ET DU SINUS DE LA FACE","Tumeur bénigne de l'oreille moyenne, des fosses nasales et du sinus de la face",Tumeur bénigne de l'oreille moyenne et de l'appareil respiratoire,D14
+neo,D174,T.B. LIPOMATEUSE DES ORG. INTRATHOR.,Tumeur lipomateuse bénigne des organes intrathoraciques,Tumeur lipomateuse bénigne,D17
+neo,D180,"HEMANGIOME, TOUT SIEGE","Hémangiome, tout siège","Hémangiome et lymphangiome, tout siège",D18
+neo,D181,"LYMPHANGIOME, TOUT SIEGE","Lymphangiome, tout siège","Hémangiome et lymphangiome, tout siège",D18
+neo,D300,T.B. DU REIN,Tumeur bénigne du rein,Tumeur bénigne des organes urinaires,D30
+neo,D320,T.B. DES MENINGES CEREB.,Tumeur bénigne des méninges cérébrales,Tumeur bénigne des méninges,D32
+neo,D330,"T.B. DE L'ENCEPHALE, SUPRATENTORIEL","Tumeur bénigne de l'encéphale, supratentoriel",Tumeur bénigne de l'encéphale et d'autres parties du système nerveux central,D33
+neo,D350,T.B. DE LA SURRENALE,Tumeur bénigne de la surrénale,"Tumeur bénigne des glandes endocrines, autres et non précisées",D35
+neo,D369,T.B. DE SIEGE SAI,Tumeur bénigne de siège non précisé,Tumeur bénigne de sièges autres et non précisés,D36
+neo,D370,"T. EV. IMPR., INC. DE LA LEVRE, DE LA CAV. BUCC. ET DU PHARYNX","Tumeur à évolution imprévisible ou inconnue de la lèvre, de la cavité buccale et du pharynx",Tumeur de la cavité buccale et des organes digestifs à évolution imprévisible ou inconnue,D37
+neo,D376,"T. EV. IMPR., INC. DU FOIE, DE LA VESICULE ET DES VOIES BIL.","Tumeur à évolution imprévisible ou inconnue du foie, de la vésicule et des voies biliaires",Tumeur de la cavité buccale et des organes digestifs à évolution imprévisible ou inconnue,D37
+neo,D377,"T. EV. IMPR., INC. D'AUTRES ORG. DIG.",Tumeur à évolution imprévisible ou inconnue d'autres organes digestifs,Tumeur de la cavité buccale et des organes digestifs à évolution imprévisible ou inconnue,D37
+neo,D379,"T. EV. IMPR., INC. DE L'APP. DIG., SAI","Tumeur à évolution imprévisible ou inconnue de l'appareil digestif, sans précision",Tumeur de la cavité buccale et des organes digestifs à évolution imprévisible ou inconnue,D37
+neo,D380,"T. EV. IMPR., INC. DU LARYNX",Tumeur à évolution imprévisible ou inconnue du larynx,Tumeur de l'oreille moyenne et des organes respiratoires et intrathoraciques à évolution imprévisible ou inconnue,D38
+neo,D390,"T. EV. IMPR., INC. DE L'UTERUS",Tumeur à évolution imprévisible ou inconnue de l'utérus,Tumeur des organes génitaux de la femme à évolution imprévisible ou inconnue,D39
+neo,D410,"T. EV. IMPR., INC. DU REIN",Tumeur à évolution imprévisible ou inconnue du rein,Tumeur des organes urinaires à évolution imprévisible ou inconnue,D41
+neo,D430,"T. EV. IMPR., INC. DE L'ENCEPHALE, SUPRATENTORIEL","Tumeur à évolution imprévisible ou inconnue de l'encéphale, supratentoriel",Tumeur de l'encéphale et du système nerveux central à évolution imprévisible ou inconnue,D43
+neo,D440,"T. EV. IMPR., INC. DE LA THYROIDE",Tumeur à évolution imprévisible ou inconnue de la thyroïde,Tumeur des glandes endocrines à évolution imprévisible ou inconnue,D44
+otherncd,D449,"T. EV. IMPR., INC. D'UNE GLD. ENDOCRINE, SAI","Tumeur à évolution imprévisible ou inconnue d'une glande endocrine, sans précision",Tumeur des glandes endocrines à évolution imprévisible ou inconnue,D44
+neo,D480,"T. EV. IMPR., INC. DES OS ET DU CARTILAGE ARTIC.",Tumeur à évolution imprévisible et inconnue des os et du cartilage articulaire,Tumeur de sièges autres et non précisés à évolution imprévisible ou inconnue,D48
+neo,D487,"T. EV. IMPR., INC. D'AUTRES SIEGES PREC.",Tumeur à évolution imprévisible et inconnue d'autres sièges précisés,Tumeur de sièges autres et non précisés à évolution imprévisible ou inconnue,D48
+neo,D489,"T. EV. IMPR., INC. DE SIEGE SAI","Tumeur à évolution imprévisible ou inconnue, sans précision",Tumeur de sièges autres et non précisés à évolution imprévisible ou inconnue,D48
+neo,D500,ANEMIE PAR CARENCE EN FER IIRE. A UNE PERTE DE SANG,Anémie par carence en fer secondaire à une perte de sang (chronique),Anémie par carence en fer,D50
+neo,D509,"ANEMIE PAR CARENCE EN FER, SAI","Anémie par carence en fer, sans précision",Anémie par carence en fer,D50
+cvd,D510,ANEMIE PAR CARENCE EN VIT. B12 DUE A UNE CARENCE EN FACT. INTRINS.,Anémie par carence en vitamine B12 due à une carence en facteur intrinsèque,Anémie par carence en vitamine B12,D51
+neo,D560,ALPHA-THALASSEMIE,Alpha-thalassémie,Thalassémie,D56
+neo,D610,APLASIE MEDULLAIRE CONSTITUTIONNELLE,Aplasie médullaire constitutionnelle,Autres aplasies médullaires,D61
+neo,D643,"ANEMIES SIDEROBLASTIQUES, NCA",Autres anémies sidéroblastiques,Autres anémies,D64
+neo,D648,"ANEMIES PREC., NCA",Autres anémies précisées,Autres anémies,D64
+neo,D649,"ANEMIE, SAI","Anémie, sans précision",Autres anémies,D64
+otherncd,D680,MAL. DE VON WILLEBRAND,Maladie de von Willebrand,Autres anomalies de la coagulation,D68
+otherncd,D690,PURPURA ALLERGIQUE,Purpura allergique,Purpura et autres affections hémorragiques,D69
+otherncd,D699,"AFF. HEMORR., SAI","Affection hémorragique, sans précision",Purpura et autres affections hémorragiques,D69
+neo,D730,HYPOSPLENISME,Hyposplénisme,Maladie de la rate,D73
+neo,D759,"MAL. DU SANG ET DES ORG. HEMATO., SAI","Maladie du sang et des organes hématopoïétiques, sans précision",Autres maladies du sang et des organes hématopoïétiques,D75
+neo,D760,"*** SU11 *** HISTIOCYTOSE DES CELL. DE LANGERHANS, NCA","*** SU11 *** Histiocytose des cellules de Langerhans, non classée ailleurs",Autres maladies précisées avec participation des tissus lymphoréticulaire et réticulohistiocytaire,D76
+neo,D800,HYPOGAMMAGLOBULINEMIE HERED.,Hypogammaglobulinémie héréditaire,Déficit immunitaire avec déficit prédominant de la production d'anticorps,D80
+neo,D801,HYPOGAMMAGLOBULINEMIE,Hypogammaglobulinémie (non familiale),Déficit immunitaire avec déficit prédominant de la production d'anticorps,D80
+neo,D803,DEFIC. SELECTIF EN SOUS-CLASSES D'IG G,Déficit sélectif en sous-classes d'immunoglobulines G [IgG],Déficit immunitaire avec déficit prédominant de la production d'anticorps,D80
+neo,D811,DEFIC. IMMUN. COMBINE SEVERE AVEC NB. FAIBLE DE CELL. B ET T,Déficit immunitaire combiné sévère [DICS] avec nombre faible de cellules B et T,Déficits immunitaires combinés,D81
+neo,D819,"DEFIC. IMMUN. COMBINE, SAI","Déficit immunitaire combiné, sans précision",Déficits immunitaires combinés,D81
+neo,D831,DEFIC. IMMUN. COMMUN VARIABLE + ANOM. LYMPHOCYTES T IMMUNOREGULATEURS,Déficit immunitaire commun variable avec anomalies prédominantes des lymphocytes T immunorégulateurs,Déficit immunitaire commun variable,D83
+neo,D839,"DEFIC. IMMUN. COMMUN VARIABLE, SAI","Déficit immunitaire commun variable, sans précision",Déficit immunitaire commun variable,D83
+neo,D849,"DEFIC. IMMUN., SAI","Déficit immunitaire, sans précision",Autres déficits immunitaires,D84
+neo,D860,SARCOIDOSE DU POUMON,Sarcoïdose du poumon,Sarcoïdose,D86
+neo,D899,"ANOM. DU SYST. IMMUN., SAI","Anomalie du système immunitaire, sans précision","Autres anomalies du système immunitaire, non classées ailleurs",D89
+neo,E050,THYREOTOXICOSE AVEC GOITRE DIFFUS,Thyréotoxicose avec goitre diffus,Thyréotoxicose [hyperthyroïdie],E05
+neo,E100,"DIABETE TYPE 1, AVEC COMA","Diabète sucré de type 1, avec coma",Diabète sucré de type 1,E10
+neo,E110,"DIABETE TYPE 2, AVEC COMA","Diabète sucré de type 2, avec coma",Diabète sucré de type 2,E11
+unintent,E139,"DIABETES SUCRES PREC. NCA, SANS COMPLIC.","Autres diabètes sucrés précisés, sans complication",Autres diabètes sucrés précisés,E13
+otherncd,E140,"DIABETE SUCRE, SAI, AVEC COMA","Diabète sucré, sans précision, avec coma","Diabète sucré, sans précision",E14
+neo,E141,"DIABETE SUCRE, SAI, AVEC ACIDOCETOSE","Diabète sucré, sans précision, avec acidocétose","Diabète sucré, sans précision",E14
+mater_neonat,E142,"DIABETE SUCRE, SAI, AVEC COMPLIC. RENALES","Diabète sucré, sans précision, avec complications rénales","Diabète sucré, sans précision",E14
+mater_neonat,E143,"DIABETE SUCRE, SAI, AVEC COMPLIC. OCULAIRES","Diabète sucré, sans précision, avec complications oculaires","Diabète sucré, sans précision",E14
+mater_neonat,E144,"DIABETE SUCRE, SAI, AVEC COMPLIC. NEURO.","Diabète sucré, sans précision, avec complications neurologiques","Diabète sucré, sans précision",E14
+mater_neonat,E145,"DIABETE SUCRE, SAI, AVEC COMPLIC. VASC. PERIPH.","Diabète sucré, sans précision, avec complications vasculaires périphériques","Diabète sucré, sans précision",E14
+mater_neonat,E146,"DIABETE SUCRE, SAI, AVEC AUTRES COMPLIC. PREC.","Diabète sucré, sans précision, avec autres complications précisées","Diabète sucré, sans précision",E14
+mater_neonat,E147,"DIABETE SUCRE, SAI, AVEC COMPLIC. MULT.","Diabète sucré, sans précision, avec complications multiples","Diabète sucré, sans précision",E14
+mater_neonat,E148,"DIABETE SUCRE, SAI, AVEC COMPLIC. NON PREC.","Diabète sucré, sans précision, avec complications non précisées","Diabète sucré, sans précision",E14
+unintent,E149,"DIABETE SUCRE, SAI, SANS COMPLIC.","Diabète sucré, sans précision, sans complication","Diabète sucré, sans précision",E14
+neo,E230,HYPOPITUITARISME,Hypopituitarisme,Hyposécrétion et autres anomalies de l'hypophyse,E23
+neo,E260,HYPERALDOSTERONISME IRE.,Hyperaldostéronisme primaire,Hyperaldostéronisme,E26
+otherncd,E340,SYND. CARCINOIDE,Syndrome carcinoïde,Autres troubles endocriniens,E34
+neo,E610,CARENCE EN CUIVRE,Carence en cuivre,Carences en autres éléments nutritionnels,E61
+otherncd,E640,SEQ. DE MALNUTRITION PROTEINO-ENERGETIQUE,Séquelles de malnutrition protéino-énergétique,Séquelles de malnutrition et autres carences nutritionnelles,E64
+cvd,E660,OBESITE DUE A UN EXCES CALORIQUE,Obésité due à un excès calorique,Obésité et surpoids,E66
+neo,E740,THESAURISMOSE GLYCOGENIQUE,Thésaurismose glycogénique,Autres anomalies du métabolisme des hydrates de carbone,E74
+neo,E750,GANGLIOSIDOSE GM2,Gangliosidose GM2,Anomalies du métabolisme des sphingolipides et autres anomalies du stockage des lipides,E75
+neo,E770,DEFAUTS DE LA TRANSFORM. POST-TRADUCTIONNELLE DES ENZYM. LYSOSOMIAUX,Défauts de la transformation post-traductionnelle des enzymes lysosomiaux,Anomalies du métabolisme des glycoprotéines,E77
+neo,E780,HYPERCHOLESTEROLEMIE ESSENTIELLE,Hypercholestérolémie essentielle,Anomalies du métabolisme des lipoprotéines et autres lipidémies,E78
+neo,E790,HYPERURICEMIE SANS SIGNES D'ARTHRITE INFL. ET DE MAL. TOPHACEE,Hyperuricémie sans signes d'arthrite inflammatoire et de maladie tophacée,Anomalies du métabolisme de la purine et de la pyrimidine,E79
+neo,E830,ANOM. DU METAB. DU CUIVRE,Anomalies du métabolisme du cuivre,Anomalies du métabolisme des minéraux,E83
+otherncd,E840,FIBROSE KYSTIQUE AVEC MANIF. PULM.,Fibrose kystique avec manifestations pulmonaires,Fibrose kystique,E84
+neo,E853,AMYLOSE GENERALISEE IIRE.,Amylose généralisée secondaire,Amylose,E85
+neo,E854,AMYLOSE LIMITEE A UN OU PLUS. ORG.,Amylose limitée à un ou plusieurs organe(s),Amylose,E85
+neo,E858,"AMYLOSES, NCA",Autres amyloses,Amylose,E85
+neo,E859,"AMYLOSE, SAI","Amylose, sans précision",Amylose,E85
+neo,E86,HYPOVOLEMIE,Hypovolémie,Hypovolémie,E86
+neo,E870,HYPEROSMOLARITE ET HYPERNATREMIE,Hyperosmolarité et hypernatrémie,Autres déséquilibres hydro-électrolytiques et acido-basiques,E87
+neo,E871,HYPO-OSMOLARITE ET HYPONATREMIE,Hypo-osmolarité et hyponatrémie,Autres déséquilibres hydro-électrolytiques et acido-basiques,E87
+neo,E872,ACIDOSE,Acidose,Autres déséquilibres hydro-électrolytiques et acido-basiques,E87
+neo,E875,HYPERKALIEMIE,Hyperkaliémie,Autres déséquilibres hydro-électrolytiques et acido-basiques,E87
+neo,E876,HYPOKALIEMIE,Hypokaliémie,Autres déséquilibres hydro-électrolytiques et acido-basiques,E87
+neo,E877,SURCHARGE LIQUIDIENNE,Surcharge liquidienne,Autres déséquilibres hydro-électrolytiques et acido-basiques,E87
+neo,E878,"DESEQUILIBRES HYDRO-ELECTROLYTIQUES, NCA OU SAI","Autres déséquilibres hydro-électrolytiques, non classés ailleurs",Autres déséquilibres hydro-électrolytiques et acido-basiques,E87
+neo,E880,"ANOM. DU METAB. DES PROTEINES PLASMATIQUES, NCA","Anomalies du métabolisme des protéines plasmatiques, non classées ailleurs",Autres anomalies métaboliques,E88
+otherncd,F051,DELIRIUM SURAJOUTE A UNE DEMENCE,Delirium surajouté à une démence,"Delirium, non induit par l'alccol et d'autres substances psycho-actives",F05
+otherncd,F059,"DELIRIUM, SAI","Delirium, sans précision","Delirium, non induit par l'alccol et d'autres substances psycho-actives",F05
+neo,F067,TBL. COGNITIF LEGER,Trouble cognitif léger,"Autres troubles mentaux dus à une lésion cérébrale et un dysfonctionnement cérébral, et à une affection somatique",F06
+neo,F069,"TBL. MENT. SAI, DU A LES. CEREB., DYSFCT. CEREB., ET AFF. PHYS.","Trouble mental sans précision, dû à une lésion cérébrale et un dysfonctionnement cérébral, et à une affection physique","Autres troubles mentaux dus à une lésion cérébrale et un dysfonctionnement cérébral, et à une affection somatique",F06
+neo,F100,TBL. MENT. DUS A ALCOOL : INTOX. AIG.,Troubles mentaux et du comportement liés à l'utilisation d'alcool : intoxication aiguë,Troubles mentaux et du comportement liés à l'utilisation d'alcool,F10
+neo,F140,TBL. MENT. DUS A COCAINE : INTOX. AIG.,Troubles mentaux et du comportement liés à l'utilisation de cocaïne : intoxication aiguë,Troubles mentaux et du comportement liés à l'utilisation de cocaïne,F14
+neo,F150,TBL. MENT. DUS A STIMUL. NCA. : INTOX. AIG.,"Troubles mentaux et du comportement liés à l'utilisation d'autres stimulants, y compris la caféine : intoxication aiguë","Troubles mentaux et du comportement liés à l'utilisation d'autres stimulants, y compris la caféine",F15
+neo,F171,TBL. MENT. DUS A TABAC : UTIL. NOCIVE,Troubles mentaux et du comportement liés à l'utilisation de tabac : utilisation nocive pour la santé,Troubles mentaux et du comportement liés à l'utilisation de tabac,F17
+otherncd,F172,TBL. MENT. DUS A TABAC : SYND. DE DEPENDANCE,Troubles mentaux et du comportement liés à l'utilisation de tabac : syndrome de dépendance,Troubles mentaux et du comportement liés à l'utilisation de tabac,F17
+neo,F179,"TBL. MENT. SAI, DUS A TABAC","Troubles mentaux et du comportement liés à l'utilisation de tabac, sans précision",Troubles mentaux et du comportement liés à l'utilisation de tabac,F17
+neo,F200,SCHIZOPHRENIE PARANOIDE,Schizophrénie paranoïde,Schizophrénie,F20
+neo,F202,SCHIZOPHRENIE CATATONIQUE,Schizophrénie catatonique,Schizophrénie,F20
+neo,F204,DEPRES. POST-SCHIZOPHRENIQUE,Dépression post-schizophrénique,Schizophrénie,F20
+neo,F205,SCHIZOPHENIE RESIDUELLE,Schizophénie résiduelle,Schizophrénie,F20
+neo,F209,"SCHIZOPHRENIE, SAI","Schizophrénie, sans précision",Schizophrénie,F20
+neo,F220,TBL. DELIRANT,Trouble délirant,Troubles délirants persistants,F22
+neo,F259,"TBL. SCHIZO-AFFECTIF, SAI","Trouble schizo-affectif, sans précision",Troubles schizo-affectifs,F25
+neo,F319,"TBL. AFF. BIPOL., SAI","Trouble affectif bipolaire, sans précision",Trouble affectif bipolaire,F31
+neo,F320,EPISODE DEPRES. LEGER,Épisode dépressif léger,Épisodes dépressifs,F32
+neo,F321,EPISODE DEPRES. MOY.,Épisode dépressif moyen,Épisodes dépressifs,F32
+neo,F322,EPISODE DEPRES. SEVERE SANS SYMPT. PSYCHOT.,Épisode dépressif sévère sans symptômes psychotiques,Épisodes dépressifs,F32
+neo,F323,EPISODE DEPRES. SEVERE AVEC SYMPT. PSYCHOT.,Épisode dépressif sévère avec symptômes psychotiques,Épisodes dépressifs,F32
+neo,F329,"EPISODE DEPRES., SAI","Épisode dépressif, sans précision",Épisodes dépressifs,F32
+neo,F333,"TBL. DEPRES. RECURRENT, SEVERE AVEC SYMPT. PSYCHOT.","Trouble dépressif récurrent, épisode actuel sévère avec symptômes psychotiques",Trouble dépressif récurrent,F33
+neo,F339,"TBL. DEPRES. RECURRENT, SAI","Trouble dépressif récurrent, sans précision",Trouble dépressif récurrent,F33
+neo,F340,CYCLOTHYMIE,Cyclothymie,Troubles de l'humeur [affectifs] persistants,F34
+neo,F400,AGORAPHOBIE,Agoraphobie,Troubles anxieux phobiques,F40
+neo,F412,TBL. ANXIEUX ET DEPRES. MIXTE,Trouble anxieux et dépressif mixte,Autres troubles anxieux,F41
+neo,F419,"TBL. ANXIEUX, SAI","Trouble anxieux, sans précision",Autres troubles anxieux,F41
+neo,F432,TBL. DE L'ADAPTATION,Troubles de l'adaptation,"Réaction à un facteur de stress sévère, et troubles de l'adaptation",F43
+neo,F439,"REAC. A UN FACT. DE STRESS SEVERE, SAI","Réaction à un facteur de stress sévère, sans précision","Réaction à un facteur de stress sévère, et troubles de l'adaptation",F43
+otherncd,F454,SYND. DOULOUREUX SOMATOFORME PERSISTANT,Syndrome douloureux somatoforme persistant,Troubles somatoformes,F45
+neo,F500,ANOREXIE MENT.,Anorexie mentale,"Troubles de l'alimentation, non organique",F50
+neo,F508,"TBL. DE L'ALIMENTATION NON ORG., NCA",Autres troubles de l'alimentation non organique,"Troubles de l'alimentation, non organique",F50
+neo,F509,"TBL. DE L'ALIMENTATION NON ORG., SAI","Trouble de l'alimentation non organique, sans précision","Troubles de l'alimentation, non organique",F50
+neo,F54,FACT. PSYCHO. ET COMPORT. ASSOCIES A DES MAL. OU DES TBL. CL. AILL.,Facteurs psychologiques et comportementaux associés à des maladies ou des troubles classés ailleurs,Facteurs psychologiques et comportementaux associés à des maladies ou des troubles classés ailleurs,F54
+neo,F72,RETARD MENT. GRAVE,Retard mental grave,Retard mental grave,F72
+neo,F79,"RETARD MENT., SAI","Retard mental, sans précision","Retard mental, sans précision",F79
+neo,F819,"TBL. DU DEVELOP., DES ACQUISITIONS SCOLAIRES, SAI","Trouble du développement, des acquisitions scolaires, sans précision",Troubles spécifiques du développement des acquisitions scolaires,F81
+neo,F840,AUTISME INFANTILE,Autisme infantile,Troubles envahissants du développement,F84
+otherncd,F842,SYND. DE RETT,Syndrome de Rett,Troubles envahissants du développement,F84
+neo,F89,"TBL. DU DEVELOP. PSYCHO., SAI","Trouble du développement psychologique, sans précision","Trouble du développement psychologique, sans précision",F89
+neo,F99,"TBL. MENT., SANS AUTRE INDICATION","Trouble mental, sans autre indication","Trouble mental, sans autre indication",F99
+neo,G009,"MENINGITE BACT., SAI","Méningite bactérienne, sans précision","Méningite bactérienne, non classée ailleurs",G00
+inj_trans,G039,"MENINGITE, SAI","Méningite, sans précision",Méningite due à des causes autres et non précisées,G03
+neo,G060,ABCES ET GRANULOME INTRACRAN.,Abcès et granulome intracrâniens,Abcès et granulome intracrâniens et intrarachidiens,G06
+neo,G062,"ABCES EXTRA-DURAL ET SOUS-DURAL, SAI","Abcès extra-dural et sous-dural, sans précision",Abcès et granulome intracrâniens et intrarachidiens,G06
+neo,G09,SEQ. D'AFF. INFL. DU S.N.C.,Séquelles d'affections inflammatoires du système nerveux central,Séquelles d'affections inflammatoires du système nerveux central,G09
+neo,G120,"AMYOTROPHIE SPINALE INFANTILE, TYPE I","Amyotrophie spinale infantile, type I [Werdnig-Hoffman]",Amyotrophie spinale et syndromes apparentés,G12
+otherncd,G210,SYND. MALIN DES NEUROLEP.,Syndrome malin des neuroleptiques,Syndrome parkinsonien secondaire,G21
+otherncd,G211,"SYND. IIRE. PARKINSONIENS NCA, DUS A DES MEDICAM.",Autres syndromes secondaires parkinsoniens dus à des médicaments,Syndrome parkinsonien secondaire,G21
+otherncd,G214,PARKINSONISME VASC.,Parkinsonisme d'origine vasculaire,Syndrome parkinsonien secondaire,G21
+otherncd,G218,"SYND. PARKINSONIENS IIRE., NCA",Autres syndromes parkinsoniens secondaires,Syndrome parkinsonien secondaire,G21
+otherncd,G219,"SYND. PARKINSONIEN IIRE., SAI","Syndrome parkinsonien secondaire, sans précision",Syndrome parkinsonien secondaire,G21
+neo,G230,MAL. DE HALLERVORDEN-SPATZ,Maladie de Hallervorden-Spatz,Autres maladies dégénératives des noyaux gris centraux,G23
+neo,G250,TREMBLEMENT ESSENTIEL,Tremblement essentiel,Autres syndromes extrapyramidaux et troubles de la motricité,G25
+neo,G300,MAL. D'ALZHEIMER A DEBUT PRECOCE,Maladie d'Alzheimer à début précoce,Maladie d'Alzheimer,G30
+neo,G310,ATROPHIE CEREB. CIRCONSCRITE,Atrophie cérébrale circonscrite,"Autres affections dégénératives du système nerveux, non classées ailleurs",G31
+neo,G360,NEUROMYELITE OPTIQUE,Neuromyélite optique [Devic],Autres affections démyélinisantes aiguës disséminées,G36
+neo,G439,"MIGRAINE, SAI","Migraine, sans précision",Migraine,G43
+otherncd,G450,SYND. VERTEBRO-BASILAIRE,Syndrome vertébro-basilaire,Accidents ischémiques cérébraux transitoires et syndromes apparentés,G45
+neo,G470,TBL. DE L'ENDORMISSEMENT ET DU MAINTIEN DU SOMMEIL,Troubles de l'endormissement et du maintien du sommeil [insomnies],Troubles du sommeil,G47
+neo,G478,"TBL. DU SOMMEIL, NCA",Autres troubles du sommeil,Troubles du sommeil,G47
+neo,G528,AFF. D'AUTRES NERFS CRANIENS PREC.,Affections d'autres nerfs crâniens précisés,Affections des autres nerfs crâniens,G52
+neo,G529,"AFF. DES NERFS CRANIENS, SAI","Affection des nerfs crâniens, sans précision",Affections des autres nerfs crâniens,G52
+neo,G587,MONONEVRITE DE SIEGES MULT.,Mononévrite de sièges multiples,Autres mononévrites,G58
+neo,G588,"MONONEVRITES PREC., NCA",Autres mononévrites précisées,Autres mononévrites,G58
+neo,G589,"MONONEVRITE, SAI","Mononévrite, sans précision",Autres mononévrites,G58
+neo,G600,NEUROPATHIE HERED. MOTRICE ET SENSORIELLE,Neuropathie héréditaire motrice et sensorielle,Neuropathie héréditaire et idiopathique,G60
+neo,G603,NEUROPATHIE PROGRESSIVE IDIOP.,Neuropathie progressive idiopathique,Neuropathie héréditaire et idiopathique,G60
+neo,G608,"NEUROPATHIES HERED. ET IDIOP., NCA",Autres neuropathies héréditaires et idiopathiques,Neuropathie héréditaire et idiopathique,G60
+neo,G609,"NEUROPATHIE HERED. ET IDIOP., SAI","Neuropathie héréditaire et idiopathique, sans précision",Neuropathie héréditaire et idiopathique,G60
+otherncd,G610,SYND. DE GUILLAIN-BARRE,Syndrome de Guillain-Barré,Polynévrites inflammatoires,G61
+neo,G628,"POLYNEVRITES PREC., NCA",Autres polynévrites précisées,Autres polynévrites,G62
+neo,G629,"POLYNEVRITE, SAI","Polynévrite, sans précision",Autres polynévrites,G62
+neo,G700,MYASTHENIE,Myasthénie,Myasthénie et autres affections neuro-musculaires,G70
+neo,G710,DYSTROPHIE MUSC.,Dystrophie musculaire,Affections musculaires primitives,G71
+neo,G800,PARALYSIE CEREB. SPASTIQUE QUADRIPLEGIQUE,Paralysie cérébrale spastique quadriplégique,Paralysie cérébrale,G80
+neo,G803,PARALYSIE CEREB. DYSKINETIQUE,Paralysie cérébrale dyskinétique,Paralysie cérébrale,G80
+neo,G808,"PARALYSIES CEREB., NCA",Autres paralysies cérébrales,Paralysie cérébrale,G80
+neo,G809,"PARALYSIE CEREB., SAI","Paralysie cérébrale, sans précision",Paralysie cérébrale,G80
+neo,G819,"HEMIPLEGIE, SAI","Hémiplégie, sans précision",Hémiplégie,G81
+neo,G822,"PARAPLEGIE, SAI","Paraplégie, sans précision",Paraplégie et tétraplégie,G82
+neo,G824,TETRAPLEGIE SPASTIQUE,Tétraplégie spastique,Paraplégie et tétraplégie,G82
+neo,G825,"TETRAPLEGIE, SAI","Tétraplégie, sans précision",Paraplégie et tétraplégie,G82
+otherncd,G839,"SYND. PARALYTIQUE, SAI","Syndrome paralytique, sans précision",Autres syndromes paralytiques,G83
+neo,G900,NEUROPATHIE AUTONOME PERIPH. IDIOP.,Neuropathie autonome périphérique idiopathique,Affections du système nerveux autonome,G90
+neo,G910,HYDROCEPHALIE COMMUNICANTE,Hydrocéphalie communicante,Hydrocéphalie,G91
+otherncd,G911,HYDROCEPHALIE OBSTRU.,Hydrocéphalie obstructive (non communicante),Hydrocéphalie,G91
+neo,G912,HYDROCEPHALIE A PRESSION NL.,Hydrocéphalie à pression normale,Hydrocéphalie,G91
+neo,G918,"HYDROCEPHALIES, NCA",Autres hydrocéphalies,Hydrocéphalie,G91
+neo,G919,"HYDROCEPHALIE, SAI","Hydrocéphalie, sans précision",Hydrocéphalie,G91
+neo,G92,ENCEPHALOPATHIE TOXIQUE,Encéphalopathie toxique,Encéphalopathie toxique,G92
+neo,G930,KYSTES CEREB.,Kystes cérébraux,Autres affections du cerveau,G93
+neo,G931,"LES. CEREB. ANOXIQUE, NCA","Lésion cérébrale anoxique, non classée ailleurs",Autres affections du cerveau,G93
+neo,G932,HYPERTENSION INTRACRAN. BENIGNE,Hypertension intracrânienne bénigne,Autres affections du cerveau,G93
+neo,G934,"ENCEPHALOPATHIE, SAI","Encéphalopathie, sans précision",Autres affections du cerveau,G93
+neo,G935,COMPRESSION DU CERVEAU,Compression du cerveau,Autres affections du cerveau,G93
+neo,G936,OEDEME CEREB.,Oedème cérébral,Autres affections du cerveau,G93
+neo,G938,"AFF. PREC. DU CERVEAU, NCA",Autres affections précisées du cerveau,Autres affections du cerveau,G93
+neo,G939,"AFF. DU CERVEAU, SAI","Affection du cerveau, sans précision",Autres affections du cerveau,G93
+neo,G950,SYRINGOMYELIE ET SYRINGOBULBIE,Syringomyélie et syringobulbie,Autres affections de la moelle épinière,G95
+neo,G961,"AFF. DES MENINGES, NCA","Affection des méninges, non classée ailleurs",Autres affections du système nerveux central,G96
+neo,G968,"AFF. PREC. DU S.N.C., NCA",Autres affections précisées du système nerveux central,Autres affections du système nerveux central,G96
+neo,G98,"AFF. DU SYST. NERV., NCA","Autres affections du système nerveux, non classées ailleurs","Autres affections du système nerveux, non classées ailleurs",G98
+neo,H440,ENDOPHTALMIE PURULENTE,Endophtalmie purulente,Affections du globe oculaire,H44
+neo,H512,OPHTALMOPLEGIE INTERNUCLEAIRE,Ophtalmoplégie internucléaire,Autres anomalies des mouvements binoculaires,H51
+neo,H534,ANOM. DU CHAMP VISUEL,Anomalies du champ visuel,Troubles de la vision,H53
+neo,H540,CECITE BINOCULAIRE,Cécité binoculaire,"Déficience visuelle binoculaire ou monoculaire, incluant la cécité",H54
+neo,H669,"OTITE MOY., SAI","Otite moyenne, sans précision",Otite moyenne suppurée et sans précision,H66
+neo,H700,MASTOIDITE AIG.,Mastoïdite aiguë,Mastoïdite et affections apparentées,H70
+digest,H729,"PERFO. DU TYMPAN, SAI","Perforation du tympan, sans précision",Perforation du tympan,H72
+neo,I050,STENOSE MITRALE RHUM. OU SAI,Sténose mitrale (rhumatismale),Maladies rhumatismales de la valvule mitrale,I05
+neo,I090,MYOCARDITE RHUM.,Myocardite rhumatismale,Autres cardiopathies rhumatismales,I09
+neo,I10,HYPERTENSION ESSENTIELLE,Hypertension essentielle (primitive),Hypertension essentielle (primitive),I10
+cvd,I110,"CARDIOPATHIE HYPERTENSIVE, AVEC INSUF. CARD.","Cardiopathie hypertensive, avec insuffisance cardiaque (congestive)",Cardiopathie hypertensive,I11
+cvd,I120,"NEPHROPATHIE HYPERTENSIVE, AVEC INSUF. RENALE","Néphropathie hypertensive, avec insuffisance rénale",Néphropathie hypertensive,I12
+cvd,I130,"CARDIONEPHROPATHIE HYPERTENSIVE, AVEC INSUF. CARD.","Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive)",Cardionéphropathie hypertensive,I13
+neo,I200,ANGINE DE POITRINE INSTABLE,Angine de poitrine instable,Angine de poitrine,I20
+neo,I210,"INFARCTUS DU MYOCARDE ANT., P.E.C. SAI","Infarctus (transmural aigu) du myocarde (de la paroi) antérieure, prise en charge non précisée",Infarctus aigu du myocarde,I21
+neo,I250,"ATHEROSCLEROSE CARDIO-VASC., DECRITE AINSI","Athérosclérose cardio-vasculaire, décrite ainsi",Cardiopathie ischémique chronique,I25
+unintent,I269,EMBOLIE PULM. SAI,"Embolie pulmonaire, (sans mention de coeur pulmonaire aigu)",Embolie pulmonaire,I26
+neo,I270,HYPERTENSION PULM.,Hypertension pulmonaire (primitive),Autres affections cardiopulmonaires,I27
+neo,I272,AUTRES HYPERTENSIONS PULM. SECOND.,Autres hypertensions pulmonaires secondaires,Autres affections cardiopulmonaires,I27
+neo,I278,"AFF. CARDIOPULMONAIRES PREC., NCA",Autres affections cardiopulmonaires précisées,Autres affections cardiopulmonaires,I27
+neo,I279,"AFF. CARDIOPULMONAIRE, SAI","Affection cardiopulmonaire, sans précision",Autres affections cardiopulmonaires,I27
+neo,I310,PERICARDITE ADHESIVE CHRON.,Péricardite adhésive chronique,Autres maladies du péricarde,I31
+neo,I312,"HEMOPERICARDE, NCA","Hémopéricarde, non classé ailleurs",Autres maladies du péricarde,I31
+neo,I313,EPANCHEMENT PERICARDIQUE,Épanchement péricardique (non inflammatoire),Autres maladies du péricarde,I31
+neo,I330,ENDOCARDITE INFECT.,Endocardite infectieuse (aiguë et subaiguë),Endocardite aiguë et subaiguë,I33
+neo,I340,INSUF. MITRALE NON RHUM. OU SAI,Insuffisance (de la valvule) mitrale (non rhumatismale),Atteintes non rhumatismales de la valvule mitrale,I34
+neo,I350,STENOSE AORT. NON RHUM. OU SAI,Sténose (de la valvule) aortique (non rhumatismale),Atteintes non rhumatismales de la valvule aortique,I35
+neo,I400,MYOCARDITE INFECT.,Myocardite infectieuse,Myocardite aiguë,I40
+neo,I420,MYOCARDIOPATHIE AVEC DILATATION,Myocardiopathie avec dilatation,Myocardiopathie,I42
+neo,I429,"MYOCARDIOPATHIE, SAI","Myocardiopathie, sans précision",Myocardiopathie,I42
+neo,I440,BLOC AURICULOVENTRICULAIRE DU 1ER DEGRE,Bloc auriculoventriculaire du premier degré,Bloc de branche gauche et auriculoventriculaire,I44
+neo,I441,BLOC AURICULOVENTRICULAIRE DU 2D DEGRE,Bloc auriculoventriculaire du second degré,Bloc de branche gauche et auriculoventriculaire,I44
+neo,I442,BLOC AURICULOVENTRICULAIRE COMP.,Bloc auriculoventriculaire complet,Bloc de branche gauche et auriculoventriculaire,I44
+neo,I443,"BLOCS AURICULOVENTRICULAIRES, NCA OU SAI","Blocs auriculoventriculaires, autres et sans précision",Bloc de branche gauche et auriculoventriculaire,I44
+neo,I447,"BLOC DE BRANCHE GAUCHE, SAI","Bloc de branche gauche, sans précision",Bloc de branche gauche et auriculoventriculaire,I44
+neo,I451,"BLOCS DE BRANCHE DROIT, NCA OU SAI","Blocs de branche droit, autres et sans précision",Autres troubles de la conduction,I45
+neo,I454,BLOC VENTRICULAIRE NON SPECIFIQUE,Bloc ventriculaire non spécifique,Autres troubles de la conduction,I45
+otherncd,I456,SYND. DE PRE-EXCITATION,Syndrome de pré-excitation,Autres troubles de la conduction,I45
+neo,I458,"TBL. PREC. DE LA CONDUCTION, NCA",Autres troubles précisés de la conduction,Autres troubles de la conduction,I45
+neo,I459,"TBL. DE LA CONDUCTION, SAI","Trouble de la conduction, sans précision",Autres troubles de la conduction,I45
+neo,I460,ARRET CARD. REANIME AVEC SUCCES,Arrêt cardiaque réanimé avec succès,Arrêt cardiaque,I46
+neo,I461,"MORT CARD. SUBITE, DECRITE AINSI","Mort cardiaque subite, décrite ainsi",Arrêt cardiaque,I46
+neo,I469,"ARRET CARD., SAI","Arrêt cardiaque, sans précision",Arrêt cardiaque,I46
+neo,I470,ARYTHMIE VENTRICULAIRE DE REENTREE,Arythmie ventriculaire de réentrée,Tachycardie paroxystique,I47
+cvd,I480,FIBRILLATION AURICULAIRE PAROXYSTIQUE,Fibrillation auriculaire paroxystique,Fibrillation et flutter auriculaires,I48
+cvd,I490,FIBRILLATION ET FLUTTER VENTRICULAIRES,Fibrillation et flutter ventriculaires,Autres arythmies cardiaques,I49
+otherncd,I495,SYND. DE DYSFCT. SINUSAL,Syndrome de dysfonctionnement sinusal,Autres arythmies cardiaques,I49
+neo,I498,"ARYTHMIES CARD. PREC., NCA",Autres arythmies cardiaques précisées,Autres arythmies cardiaques,I49
+neo,I499,"ARYTHMIE CARD., SAI","Arythmie cardiaque, sans précision",Autres arythmies cardiaques,I49
+neo,I500,INSUF. CARD. CONGESTIVE,Insuffisance cardiaque congestive,Insuffisance cardiaque,I50
+neo,I5000,"INSUFFISANCE CARDIAQUE CONGESTIVE, + FRACTION D'ÉJECTION VENTRICULAIRE GAUCHE SUPÉRIEURE / ÉGALE À 50","Insuffisance cardiaque congestive, avec fraction d'éjection ventriculaire gauche [FEVG] supérieure ou égale à 50",Insuffisance cardiaque,I50
+neo,I501,INSUF. VENTRICULAIRE GAUCHE,Insuffisance ventriculaire gauche,Insuffisance cardiaque,I50
+neo,I509,"INSUF. CARD., SAI","Insuffisance cardiaque, sans précision",Insuffisance cardiaque,I50
+otherncd,I510,"ANOM. D'UN SEPTUM CARD., ACQUISE","Anomalie d'un septum cardiaque, acquise",Complications de cardiopathies et maladies cardiaques mal définies,I51
+mater_neonat,I515,DEGEN. DU MYOCARDE,Dégénérescence du myocarde,Complications de cardiopathies et maladies cardiaques mal définies,I51
+mater_neonat,I516,"MAL. CARDIO-VASC., SAI","Maladie cardio-vasculaire, sans précision",Complications de cardiopathies et maladies cardiaques mal définies,I51
+mater_neonat,I517,CARDIOMEGALIE,Cardiomégalie,Complications de cardiopathies et maladies cardiaques mal définies,I51
+mater_neonat,I518,"CARDIOPATHIES MAL DEFINIES, NCA",Autres cardiopathies mal définies,Complications de cardiopathies et maladies cardiaques mal définies,I51
+mater_neonat,I519,"CARDIOPATHIE, SAI","Cardiopathie, sans précision",Complications de cardiopathies et maladies cardiaques mal définies,I51
+neo,I600,HEMORR. /S-ARACHN. DE LA BIFURCATION ET DU SIPHON CAROTIDIEN,Hémorragie sous-arachnoïdienne de la bifurcation et du siphon carotidien,Hémorragie sous-arachnoïdienne,I60
+neo,I610,"HEMORR. INTRACEREB. HEMISPHERIQUE, SOUS-CORTICALE","Hémorragie intracérébrale hémisphérique, sous-corticale",Hémorragie intracérébrale,I61
+neo,I620,HÉMORRAGIE SOUSDURALE NON TRAUMATIQUE,Hémorragie sousdurale non traumatique,Autres hémorragies intracrâniennes non traumatiques,I62
+neo,I630,INFARCTUS CEREB. DU A UNE THROMBOSE DES ART. PRECEREB.,Infarctus cérébral dû à une thrombose des artères précérébrales,Infarctus cérébral,I63
+neo,I670,"DISSECTION D'ART. CEREB., NON ROMPUE","Dissection d'artères cérébrales, non rompue",Autres maladies cérébrovasculaires,I67
+cvd,I674,ENCEPHALOPATHIE HYPERTENSIVE,Encéphalopathie hypertensive,Autres maladies cérébrovasculaires,I67
+neo,I678,"MAL. CEREBROVASC. PREC., NCA",Autres maladies cérébrovasculaires précisées,Autres maladies cérébrovasculaires,I67
+neo,I679,"MAL. CEREBROVASC., SAI","Maladie cérébrovasculaire, sans précision",Autres maladies cérébrovasculaires,I67
+neo,I690,SEQ. D'HEMORR. /S-ARACHN.,Séquelles d'hémorragie sous-arachnoïdienne,Séquelles de maladies cérébrovasculaires,I69
+neo,I694,"SEQ. D'ACCID. VASC. CEREB., NON PREC. PAR HEMORR. OU PAR INFARCTUS","Séquelles d'accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus",Séquelles de maladies cérébrovasculaires,I69
+neo,I698,"SEQ. DE MAL. CEREBROVASC., NCA OU SAI","Séquelles de maladies cérébrovasculaires, autres et non précisées",Séquelles de maladies cérébrovasculaires,I69
+neo,I700,ATHEROSCLEROSE DE L'AORT.,Athérosclérose de l'aorte,Athérosclérose,I70
+neo,I701,ATHEROSCLEROSE DE L'ART. RENALE,Athérosclérose de l'artère rénale,Athérosclérose,I70
+neo,I709,ATHEROSCLEROSE GENERALISEE OU SAI,Athérosclérose généralisée et sans précision,Athérosclérose,I70
+neo,I710,DISSECTION DE L'AORT.,Dissection de l'aorte [toute localisation],Anévrisme aortique et dissection,I71
+neo,I720,ANEVRISME ET DISSECTION DE L'ART. CAROTIDE,Anévrisme et dissection de l'artère carotide,Autres anévrismes et dissections,I72
+otherncd,I730,SYND. DE RAYNAUD,Syndrome de Raynaud,Autres maladies vasculaires périphériques,I73
+neo,I740,EMBOLIE ET THROMBOSE DE L'AORT. ABDO.,Embolie et thrombose de l'aorte abdominale,Embolie et thrombose artérielles,I74
+neo,I741,"EMBOLIE ET THROMBOSE DE PARTIES DE L'AORT., NCA OU SAI","Embolie et thrombose de parties de l'aorte, autres et non précisées",Embolie et thrombose artérielles,I74
+neo,I743,EMBOLIE ET THROMBOSE DES ART. DES MB. INF.,Embolie et thrombose des artères des membres inférieurs,Embolie et thrombose artérielles,I74
+neo,I744,"EMBOLIE ET THROMBOSE DES ART. DISTALES, SAI","Embolie et thrombose des artères distales, sans précision",Embolie et thrombose artérielles,I74
+neo,I745,EMBOLIE ET THROMBOSE DE L'ART. ILIAQUE,Embolie et thrombose de l'artère iliaque,Embolie et thrombose artérielles,I74
+neo,I748,EMBOLIE ET THROMBOSE D'AUTRES ART.,Embolie et thrombose d'autres artères,Embolie et thrombose artérielles,I74
+neo,I749,EMBOLIE ET THROMBOSE D'ART. SAI,Embolie et thrombose d'artères non précisées,Embolie et thrombose artérielles,I74
+neo,I770,"FISTULE ARTERIOVEINEUSE, ACQUISE","Fistule artérioveineuse, acquise",Autres atteintes des artères et artérioles,I77
+otherncd,I820,SYND. DE BUDD-CHIARI,Syndrome de Budd-Chiari,Autres embolies et thromboses veineuses,I82
+neo,I830,VARICES ULCEREES,Varices ulcérées (des membres inférieurs),Varices des membres inférieurs,I83
+neo,I850,VARICES OESOPHAGIENNES HEMORR.,Varices oesophagiennes hémorragiques,Varices oesophagiennes,I85
+neo,I890,"LYMPHOEDEME, NCA","Lymphoedème, non classé ailleurs",Autres atteintes non infectieuses des vaisseaux et des ganglions lymphatiques,I89
+neo,I951,HYPOTENSION ORTHOSTATIQUE,Hypotension orthostatique,Hypotension,I95
+neo,I959,"HYPOTENSION, SAI","Hypotension, sans précision",Hypotension,I95
+neo,J029,"PHARYNGITE, SAI","Pharyngite (aiguë), sans précision",Pharyngite aiguë,J02
+neo,J040,LARYNGITE AIG. OU SAI,Laryngite (aiguë),Laryngite et trachéite aiguës,J04
+neo,J069,"INFECT. DES VOIES RESP. SUP., SAI","Infection des voies respiratoires supérieures, sans précision","Infections aiguës des voies respiratoires supérieures, à localisations multiples et non précisées",J06
+neo,J100,"GRIPPE AVEC PNEUMOPATHIE, VIRUS GRIPPAL SAISONNIER IDENTIFIÉ","Grippe avec pneumopathie, virus grippal saisonnier identifié","Grippe, à virus grippal saisonnier identifié",J10
+neo,J110,"GRIPPE AVEC PNEUMOPATHIE, VIRUS NON IDENTIFIE","Grippe avec pneumopathie, virus non identifié","Grippe, virus non identifié",J11
+neo,J120,PNEUMOPATHIE ADENOVIRALE,Pneumopathie adénovirale,"Pneumopathies virales, non classées ailleurs",J12
+otherncd,J150,PNEUMOPATHIE DUE A KLEBSIELLA PNEUMONIAE,Pneumopathie due à Klebsiella pneumoniae,"Pneumopathies bactériennes, non classées ailleurs",J15
+neo,J159,"PNEUMOPATHIE BACT., SAI","Pneumopathie bactérienne, sans précision","Pneumopathies bactériennes, non classées ailleurs",J15
+neo,J180,"BRONCHOPNEUMOPATHIE, SAI","Bronchopneumopathie, sans précision",Pneumopathie à micro-organisme non précisé,J18
+neo,J181,"PNEUMOPATHIE LOBAIRE, SAI","Pneumopathie lobaire, sans précision",Pneumopathie à micro-organisme non précisé,J18
+neo,J182,"PNEUMOPATHIE HYPOSTATIQUE, SAI","Pneumopathie hypostatique, sans précision",Pneumopathie à micro-organisme non précisé,J18
+neo,J188,"PNEUMOPATHIES NCA, MICRO-ORG. SAI","Autres pneumopathies, micro-organisme non précisé",Pneumopathie à micro-organisme non précisé,J18
+neo,J189,"PNEUMOPATHIE, SAI","Pneumopathie, sans précision",Pneumopathie à micro-organisme non précisé,J18
+otherncd,J210,BRONCHIOLITE AIG. DUE AU VIRUS RESP. SYNCYTIAL,Bronchiolite aiguë due au virus respiratoire syncytial [VRS],Bronchiolite aiguë,J21
+neo,J380,PARALYSIE DES CORDES VOCALES ET DU LARYNX,Paralysie des cordes vocales et du larynx,"Maladies des cordes vocales et du larynx, non classées ailleurs",J38
+neo,J390,ABCES PARAPHARYNGE ET RETROPHARYNGE,Abcès parapharyngé et rétropharyngé,Autres maladies des voies respiratoires supérieures,J39
+neo,J40,"BRONCHITE, SAI","Bronchite, (non précisée comme aiguë ou chronique)","Bronchite, (non précisée comme aiguë ou chronique)",J40
+otherncd,J430,SYND. DE MACLEOD,Syndrome de MacLeod,Emphysème,J43
+otherncd,J440,MAL. PULM. OBSTRU. CHRON. AVEC INFECT. AIG. DES VOIES RESP. INF.,Maladie pulmonaire obstructive chronique avec infection aiguë des voies respiratoires inférieures,Autres maladies pulmonaires obstructives chroniques,J44
+neo,J450,ASTHME A PREDOMINANCE ALLERGIQUE,Asthme à prédominance allergique,Asthme,J45
+neo,J47,BRONCHECTASIE,Bronchectasie,Bronchectasie,J47
+cvd,J620,PNEUMOCONIOSE DUE A LA POUSSIERE DU TALC,Pneumoconiose due à la poussière du talc,Pneumoconiose due à la poussière de silice,J62
+otherncd,J690,PNEUMOPATHIE DUE A DES ALIMENTS ET DES VOMISSEMENTS,Pneumopathie due à des aliments et des vomissements,Pneumopathie due à des substances solides et liquides,J69
+otherncd,J700,AFF. PULM. AIG. DUES A UNE IRRAD.,Affections pulmonaires aiguës dues à une irradiation,Affections respiratoires dues à d'autres agents externes,J70
+otherncd,J80,SYND. DE DETRESSE RESP. DE L'ADULTE,Syndrome de détresse respiratoire de l'adulte,Syndrome de détresse respiratoire de l'adulte,J80
+neo,J81,OEDEME PULM.,Oedème pulmonaire,Oedème pulmonaire,J81
+neo,J840,PNEUMOPATHIES ALVEOLAIRES ET PARIETO-ALVEOLAIRES,Pneumopathies alvéolaires et pariéto-alvéolaires,Autres affections pulmonaires interstitielles,J84
+neo,J850,GANGRENE ET NECROSE DU POUMON,Gangrène et nécrose du poumon,Abcès du poumon et du médiastin,J85
+neo,J851,ABCES DU POUMON AVEC PNEUMOPATHIE,Abcès du poumon avec pneumopathie,Abcès du poumon et du médiastin,J85
+neo,J852,ABCES DU POUMON SAI,Abcès du poumon (sans pneumopathie),Abcès du poumon et du médiastin,J85
+neo,J860,PYOTHORAX AVEC FISTULE,Pyothorax avec fistule,Pyothorax,J86
+neo,J869,PYOTHORAX SANS FISTULE,Pyothorax sans fistule,Pyothorax,J86
+neo,J90,"EPANCHEMENT PLEURAL, NCA","Épanchement pleural, non classé ailleurs","Épanchement pleural, non classé ailleurs",J90
+neo,J920,PLAQUE PLEURALE AVEC ASBESTOSE,Plaque pleurale avec asbestose,Plaque pleurale,J92
+neo,J931,"PNEUMOTHORAX SPONT., NCA",Autres pneumothorax spontanés,Pneumothorax,J93
+neo,J938,"PNEUMOTHORAX, NCA",Autres pneumothorax,Pneumothorax,J93
+neo,J939,"PNEUMOTHORAX, SAI","Pneumothorax, sans précision",Pneumothorax,J93
+neo,J941,FIBROTHORAX,Fibrothorax,Autres affections pleurales,J94
+neo,J942,HEMOTHORAX,Hémothorax,Autres affections pleurales,J94
+neo,J948,"AFF. PLEURALES PREC., NCA",Autres affections pleurales précisées,Autres affections pleurales,J94
+neo,J949,"AFF. PLEURALE, SAI","Affection pleurale, sans précision",Autres affections pleurales,J94
+neo,J960,INSUF. RESP. AIG.,Insuffisance respiratoire aiguë,"Insuffisance respiratoire, non classée ailleurs",J96
+neo,J961,INSUF. RESP. CHRON.,Insuffisance respiratoire chronique,"Insuffisance respiratoire, non classée ailleurs",J96
+neo,J969,"INSUF. RESP., SAI","Insuffisance respiratoire, sans précision","Insuffisance respiratoire, non classée ailleurs",J96
+neo,J980,"AFF. DES BRONCHES, NCA","Affections des bronches, non classées ailleurs",Autres troubles respiratoires,J98
+neo,J981,COLLAPSUS PULM.,Collapsus pulmonaire,Autres troubles respiratoires,J98
+neo,J982,EMPHYSEME INTERST.,Emphysème interstitiel,Autres troubles respiratoires,J98
+neo,J984,"AFF. PULM., NCA",Autres affections pulmonaires,Autres troubles respiratoires,J98
+neo,J985,"MAL. DU MEDIASTIN, NCA","Maladies du médiastin, non classées ailleurs",Autres troubles respiratoires,J98
+neo,J986,MAL. DU DIAPHRAGME,Maladies du diaphragme,Autres troubles respiratoires,J98
+neo,J988,"TBL. RESP. PREC., NCA",Autres troubles respiratoires précisés,Autres troubles respiratoires,J98
+neo,J989,"TBL. RESP., SAI","Trouble respiratoire, sans précision",Autres troubles respiratoires,J98
+neo,K039,"MAL. DES TISSUS DENTAIRES DURS, SAI","Maladie des tissus dentaires durs, sans précision",Autres maladies des tissus dentaires durs,K03
+neo,K047,ABCES PERIAPICAL SANS FISTULE OU SAI,Abcès périapical (sans fistule),Maladies de la pulpe et des tissus périapicaux,K04
+neo,K049,"MAL. DE LA PULPE ET DES TISSU PERIAPICAUX, NCA OU SAI","Maladies de la pulpe et des tissu périapicaux, autres et sans précision",Maladies de la pulpe et des tissus périapicaux,K04
+neo,K088,"AFF. PREC. DES DENTS ET DU PARODONTE, NCA",Autres affections précisées des dents et du parodonte,Autres affections des dents et du parodonte,K08
+neo,K089,"AFF. DES DENTS ET DU PARODONTE, SAI","Affection des dents et du parodonte, sans précision",Autres affections des dents et du parodonte,K08
+neo,K102,AFF. INFL. DES MACHOIRES,Affections inflammatoires des mâchoires,Autres maladies des mâchoires,K10
+neo,K112,SIALOADENITE,Sialoadénite,Maladies des glandes salivaires,K11
+neo,K113,ABCES DES GLD. SALIVAIRES,Abcès des glandes salivaires,Maladies des glandes salivaires,K11
+neo,K119,"MAL. DES GLD. SALIVAIRES, SAI","Maladie des glandes salivaires, sans précision",Maladies des glandes salivaires,K11
+neo,K120,APHTES BUCC. RECIDIVANTS,Aphtes buccaux récidivants,Stomatites et affections apparentées,K12
+neo,K121,"STOMATITE, NCA",Autres formes de stomatite,Stomatites et affections apparentées,K12
+neo,K122,PHLEGMON ET ABCES DE LA BOUCHE,Phlegmon et abcès de la bouche,Stomatites et affections apparentées,K12
+neo,K210,REFLUX GASTRO-OESOPHAGIEN AVEC OESOPHAGITE,Reflux gastro-oesophagien avec oesophagite,Reflux gastro-oesophagien,K21
+neo,K220,ACHALASIE DU CARDIA,Achalasie du cardia,Autres maladies de l'oesophage,K22
+neo,K250,"ULCERE DE L'ESTOMAC AIG., AVEC HEMORR.","Ulcère de l'estomac aigu, avec hémorragie",Ulcère de l'estomac,K25
+neo,K260,"ULCERE DU DUODENUM AIG., AVEC HEMORR.","Ulcère du duodénum aigu, avec hémorragie",Ulcère du duodénum,K26
+neo,K270,"ULCERE DIG., DE SIEGE SAI, AIG. AVEC HEMORR.","Ulcère digestif, de siège non précisé, aigu avec hémorragie","Ulcère digestif, de siège non précisé",K27
+neo,K280,"ULCERE GASTRO-JEJUNAL AIG., AVEC HEMORR.","Ulcère gastro-jéjunal aigu, avec hémorragie",Ulcère gastro-jéjunal,K28
+neo,K290,GASTRITE HEMORR. AIG.,Gastrite hémorragique aiguë,Gastrite et duodénite,K29
+neo,K30,DYSPEPSIE FONCTIONNELLE,Dyspepsie fonctionnelle,Dyspepsie fonctionnelle,K30
+neo,K310,DILATATION AIG. DE L'ESTOMAC,Dilatation aiguë de l'estomac,Autres maladies de l'estomac et du duodénum,K31
+neo,K319,"MAL. DE L'ESTOMAC ET DU DUODENUM, SAI","Maladie de l'estomac et du duodénum, sans précision",Autres maladies de l'estomac et du duodénum,K31
+neo,K350,*** SU11 *** APPENDICITE AVEC PERITONITE GENERALISEE,*** SU11 *** Appendicite (aiguë) avec péritonite généralisée,Appendicite aiguë,K35
+cvd,K420,"HERNIE OMBILICALE, AVEC OCCLUSION, SANS GANGRENE","Hernie ombilicale, avec occlusion, sans gangrène",Hernie ombilicale,K42
+cvd,K430,"EVENTRATION POST-OP, AVEC OCCLUSION, SANS GANGRENE","Éventration post-opératoire, avec occlusion sans gangrène",Autres hernies de la paroi abdominale antérieure,K43
+cvd,K440,"HERNIE DIAPHRAGMATIQUE, AVEC OCCLUSION, SANS GANGRENE","Hernie diaphragmatique, avec occlusion, sans gangrène",Hernie diaphragmatique,K44
+cvd,K450,"HERNIES ABDO. NCA, AVEC OCCLUSION, SANS GANGRENE","Autres hernies abdominales de siège précisé, avec occlusion, sans gangrène",Autres hernies abdominales,K45
+cvd,K460,"HERNIE ABDO. SAI, AVEC OCCLUSION, SANS GANGRENE","Hernie abdominale non précisée, avec occlusion, sans gangrène",Hernie abdominale non précisée,K46
+neo,K510,PANCOLITE ULCEREUSE,Pancolite ulcéreuse (chronique),Recto-colite hémorragique [colite ulcéreuse],K51
+neo,K550,TBL. VASC. AIG. DE L'INTESTIN,Troubles vasculaires aigus de l'intestin,Troubles vasculaires de l'intestin,K55
+cvd,K560,ILEUS PARALYTIQUE,Iléus paralytique,Iléus paralytique et occlusion intestinale sans hernie,K56
+digest,K570,"DIVERTICULOSE DE L'INTESTIN GRELE, AVEC PERFO. ET ABCES","Diverticulose de l'intestin grêle, avec perforation et abcès",Diverticulose de l'intestin,K57
+neo,K590,CONSTIPATION,Constipation,Autres troubles fonctionnels de l'intestin,K59
+neo,K610,ABCES ANAL,Abcès anal,Abcès des régions anale et rectale,K61
+neo,K630,ABCES DE L'INTESTIN,Abcès de l'intestin,Autres maladies de l'intestin,K63
+digest,K631,PERFO. DE L'INTESTIN,Perforation de l'intestin (non traumatique),Autres maladies de l'intestin,K63
+neo,K632,FISTULE DE L'INTESTIN,Fistule de l'intestin,Autres maladies de l'intestin,K63
+neo,K633,ULCERE DE L'INTESTIN,Ulcère de l'intestin,Autres maladies de l'intestin,K63
+neo,K634,ENTEROPTOSE,Entéroptose,Autres maladies de l'intestin,K63
+neo,K638,"MAL. PREC. DE L'INTESTIN, NCA",Autres maladies précisées de l'intestin,Autres maladies de l'intestin,K63
+neo,K639,"MAL. DE L'INTESTIN, SAI","Maladie de l'intestin, sans précision",Autres maladies de l'intestin,K63
+neo,K650,PERITONITE AIG.,Péritonite aiguë,Péritonite,K65
+neo,K658,"PERITONITES, NCA",Autres péritonites,Péritonite,K65
+neo,K659,"PERITONITE, SAI","Péritonite, sans précision",Péritonite,K65
+neo,K660,ADHERENCES PERIT.,Adhérences péritonéales,Autres maladies du péritoine,K66
+neo,K661,HEMOPERITOINE,Hémopéritoine,Autres maladies du péritoine,K66
+neo,K669,"MAL. DU PERITOINE, SAI","Maladie du péritoine, sans précision",Autres maladies du péritoine,K66
+neo,K700,CIRRHOSE ALCOOLIQUE GRAISSEUSE DU FOIE,Cirrhose alcoolique graisseuse du foie,Maladie alcoolique du foie,K70
+neo,K704,INSUF. HEPATIQUE ALCOOLIQUE,Insuffisance hépatique alcoolique,Maladie alcoolique du foie,K70
+neo,K709,"MAL. ALCOOLIQUE DU FOIE, SAI","Maladie alcoolique du foie, sans précision",Maladie alcoolique du foie,K70
+neo,K711,MAL. TOXIQUE DU FOIE AVEC NECROSE HEPATIQUE,Maladie toxique du foie avec nécrose hépatique,Maladie toxique du foie,K71
+neo,K718,MAL. TOXIQUE DU FOIE AVEC D'AUTRES LES. DU FOIE,Maladie toxique du foie avec d'autres lésions du foie,Maladie toxique du foie,K71
+neo,K719,"MAL. TOXIQUE DU FOIE, SAI","Maladie toxique du foie, sans précision",Maladie toxique du foie,K71
+neo,K720,INSUF. HEPATIQUE AIG. ET SUBAIG.,Insuffisance hépatique aiguë et subaiguë,"Insuffisance hépatique, non classée ailleurs",K72
+neo,K721,INSUF. HEPATIQUE CHRON.,Insuffisance hépatique chronique,"Insuffisance hépatique, non classée ailleurs",K72
+neo,K729,"INSUF. HEPATIQUE, SAI","Insuffisance hépatique, sans précision","Insuffisance hépatique, non classée ailleurs",K72
+neo,K732,"HEPATITE CHRON. NCA, ACTIVE","Hépatite chronique active, non classée ailleurs","Hépatite chronique, non classée ailleurs",K73
+neo,K738,"HEPATITES CHRON., NCA","Autres hépatites chroniques, non classées ailleurs","Hépatite chronique, non classée ailleurs",K73
+neo,K739,"HEPATITE CHRON., SAI","Hépatite chronique, sans précision","Hépatite chronique, non classée ailleurs",K73
+neo,K740,FIBROSE HEPATIQUE,Fibrose hépatique,Fibrose et cirrhose du foie,K74
+neo,K750,ABCES DU FOIE,Abcès du foie,Autres maladies inflammatoires du foie,K75
+neo,K760,"DEGEN. GRAISSEUSE DU FOIE, NCA","Dégénérescence graisseuse du foie, non classée ailleurs",Autres maladies du foie,K76
+neo,K800,CALCUL DE LA VESICULE BIL. AVEC CHOLECYSTITE AIG.,Calcul de la vésicule biliaire avec cholécystite aiguë,Cholélithiase,K80
+neo,K810,CHOLECYSTITE AIG.,Cholécystite aiguë,Cholécystite,K81
+neo,K830,ANGIOCHOLITE,Angiocholite [cholangite],Autres maladies des voies biliaires,K83
+neo,K860,PANCREATITE CHRON. ALCOOLIQUE,Pancréatite chronique alcoolique,Autres maladies du pancréas,K86
+neo,K900,MAL. COELIAQUE,Maladie coeliaque,Malabsorption intestinale,K90
+neo,K920,HEMATEMESE,Hématémèse,Autres maladies du système digestif,K92
+neo,K921,MELAENA,Mélaena,Autres maladies du système digestif,K92
+neo,K922,"HEMORR. GASTRO-INTEST., SAI","Hémorragie gastro-intestinale, sans précision",Autres maladies du système digestif,K92
+neo,K929,"MAL. DU SYST. DIG., SAI","Maladie du système digestif, sans précision",Autres maladies du système digestif,K92
+neo,L120,PEMPHIGOIDE BULLEUX,Pemphigoïde bulleux,Pemphigoïde,L12
+otherncd,L279,DERMITE DUE A UNE SUBST. SAI PRISE PAR VOIE INT.,Dermite due à une substance non précisée prise par voie interne,Dermite due à des substances prises par voie interne,L27
+neo,L309,"DERMITE, SAI","Dermite, sans précision",Autres dermites,L30
+neo,L405,PSORIASIS ARTHROPATHIQUE,"Psoriasis arthropathique (M07.0-M07.3*, M09.0*)",Psoriasis,L40
+neo,L409,"PSORIASIS, SAI","Psoriasis, sans précision",Psoriasis,L40
+neo,L439,"LICHEN PLAN, SAI","Lichen plan, sans précision",Lichen plan,L43
+neo,L509,"URTICAIRE, SAI","Urticaire, sans précision",Urticaire,L50
+neo,L539,"ERYTHEME, SAI","Érythème, sans précision",Autres formes d'érythème,L53
+neo,L721,KYSTE SEBACE,Kyste sébacé,Kystes folliculaires de la peau et du tissu cellulaire sous-cutané,L72
+neo,L732,HIDROSADENITE SUPPUREE,Hidrosadénite suppurée,Autres affections folliculaires,L73
+neo,L930,LUPUS ERYTHEMATEUX CHRON. OU SAI,Lupus érythémateux (chronique),Lupus érythémateux,L93
+neo,L950,VASCULARITE LIVEDOIDE,Vascularite livédoïde,"Vascularite [angéite] limitée à la peau, non classée ailleurs",L95
+neo,L988,"AFF. PREC. DE LA PEAU ET DU TISSU CELL. /S-CUT., NCA",Autres affections précisées de la peau et du tissu cellulaire sous-cutané,"Autres affections de la peau et du tissu cellulaire sous-cutané, non classées ailleurs",L98
+neo,L989,"AFF. DE LA PEAU ET DU TISSU CELL. /S-CUT., SAI","Affection de la peau et du tissu cellulaire sous-cutané, sans précision","Autres affections de la peau et du tissu cellulaire sous-cutané, non classées ailleurs",L98
+neo,M000,ARTHRITE ET POLYARTHRITE A STAPHYLO.,Arthrite et polyarthrite à staphylocoques,Arthrites à bactéries pyogènes,M00
+otherncd,M050,SYND. DE FELTY,Syndrome de Felty,Polyarthrite rhumatoïde séropositive,M05
+neo,M060,POLYARTHRITE RHUMATOIDE SERONEGATIVE,Polyarthrite rhumatoïde séronégative,Autres polyarthrites rhumatoïdes,M06
+neo,M100,GOUTTE IDIOP.,Goutte idiopathique,Goutte,M10
+neo,M109,"GOUTTE, SAI","Goutte, sans précision",Goutte,M10
+neo,M130,"POLYARTHRITE, SAI","Polyarthrite, sans précision",Autres arthrites,M13
+neo,M139,"ARTHRITE, SAI","Arthrite, sans précision",Autres arthrites,M13
+neo,M159,"POLYARTHROSE, SAI","Polyarthrose, sans précision",Polyarthrose,M15
+neo,M161,"COXARTHROSES IRE., UNILAT. OU SAI",Autres coxarthroses primaires,Coxarthrose [arthrose de la hanche],M16
+neo,M169,"COXARTHROSE, SAI","Coxarthrose, sans précision",Coxarthrose [arthrose de la hanche],M16
+neo,M179,"GONARTHROSE, SAI","Gonarthrose, sans précision",Gonarthrose [arthrose du genou],M17
+neo,M189,"ARTHROSE DE LA 1ERE ARTIC. CARPO-METACARP., SAI","Arthrose de la première articulation carpo-métacarpienne, sans précision",Arthrose de la première articulation carpo-métacarpienne,M18
+neo,M192,AUTRES ARTHROSES IIRES.,Autres arthroses secondaires,Autres arthroses,M19
+neo,M199,"ARTHROSE, SAI","Arthrose, sans précision",Autres arthroses,M19
+neo,M245,RAIDEUR ARTIC. PAR CONTRACTURE,Raideur articulaire par contracture,Autres lésions articulaires spécifiques,M24
+neo,M246,ANKYLOSE ARTIC.,Ankylose articulaire,Autres lésions articulaires spécifiques,M24
+neo,M253,"INSTABILITES ARTIC., NCA",Autres instabilités articulaires,"Autres affections articulaires, non classées ailleurs",M25
+neo,M255,DOULEUR ARTIC.,Douleur articulaire,"Autres affections articulaires, non classées ailleurs",M25
+neo,M256,"RAIDEUR ARTIC., NCA","Raideur articulaire, non classée ailleurs","Autres affections articulaires, non classées ailleurs",M25
+neo,M259,"AFF. ARTIC., SAI","Affection articulaire, sans précision","Autres affections articulaires, non classées ailleurs",M25
+neo,M300,PERIARTERITE NOUEUSE,Périartérite noueuse,Périartérite noueuse et affections apparentées,M30
+neo,M310,ANGEITE D'HYPERSENSIBILITE,Angéite d'hypersensibilité,Autres vasculopathies nécrosantes,M31
+otherncd,M350,SYND. DE GOUGEROT-SJOGREN,Syndrome de Gougerot-Sjögren,Autres atteintes systémiques du tissu conjonctif,M35
+neo,M45,SPONDYLARTHRITE ANKYLOSANTE,Spondylarthrite ankylosante,Spondylarthrite ankylosante,M45
+neo,M462,OSTEOMYELITE VERTEB.,Ostéomyélite vertébrale,Autres spondylopathies inflammatoires,M46
+neo,M464,"DISCITE, SAI","Discite, sans précision",Autres spondylopathies inflammatoires,M46
+neo,M469,"SPONDYLOPATHIE INFL., SAI","Spondylopathie inflammatoire, sans précision",Autres spondylopathies inflammatoires,M46
+neo,M471,"SPONDYLARTHROSES AVEC MYELOPATHIE, NCA",Autres spondylarthroses avec myélopathie,Spondylarthrose,M47
+neo,M478,"SPONDYLARTHROSES, NCA",Autres spondylarthroses,Spondylarthrose,M47
+neo,M479,"SPONDYLARTHROSE, SAI","Spondylarthrose, sans précision",Spondylarthrose,M47
+neo,M480,RETREC. DU CANAL MEDULLAIRE,Rétrécissement du canal médullaire,Autres spondylopathies,M48
+neo,M489,"SPONDYLOPATHIE, SAI","Spondylopathie, sans précision",Autres spondylopathies,M48
+neo,M502,AUTRE HERNIE D'UN DISQUE CERV.,Autre hernie d'un disque cervical,Atteintes des disques cervicaux,M50
+neo,M503,AUTRE DETERIORATION D'UN DISQUE CERV.,Autre détérioration d'un disque cervical,Atteintes des disques cervicaux,M50
+neo,M509,"ATTEINTE D'UN DISQUE CERV., SAI","Atteinte d'un disque cervical, sans précision",Atteintes des disques cervicaux,M50
+neo,M513,DETERIORATION D'UN AUTRE DISQUE INTERVERTEB. PREC.,Détérioration d'un autre disque intervertébral précisé,Atteintes d'autres disques intervertébraux,M51
+neo,M541,RADICULOPATHIE,Radiculopathie,Dorsalgies,M54
+neo,M545,LOMBALGIE BASSE,Lombalgie basse,Dorsalgies,M54
+neo,M549,"DORSALGIE, SAI","Dorsalgie, sans précision",Dorsalgies,M54
+neo,M600,MYOSITE INFECT.,Myosite infectieuse,Myosite,M60
+neo,M608,"MYOSITES, NCA",Autres myosites,Myosite,M60
+neo,M609,"MYOSITE, SAI","Myosite, sans précision",Myosite,M60
+neo,M611,MYOSITE OSSIFIANTE PROGRESSIVE,Myosite ossifiante progressive,Calcification et ossification de muscles,M61
+neo,M622,INFARCISSEMENT ISCHEM. MUSC.,Infarcissement ischémique musculaire,Autres atteintes musculaires,M62
+neo,M625,"ATROPHIE ET FONTE MUSC., NCA","Atrophie et fonte musculaires, non classées ailleurs",Autres atteintes musculaires,M62
+neo,M628,"ATTEINTES MUSC. PREC., NCA",Autres atteintes musculaires précisées,Autres atteintes musculaires,M62
+neo,M664,DECHIRURE SPONT. D'AUTRES TENDONS,Déchirure spontanée d'autres tendons,Déchirure spontanée de la synoviale et du tendon,M66
+neo,M796,DOULEUR NIV. D'UN MB.,Douleur au niveau d'un membre,"Autres affections des tissus mous, non classées ailleurs",M79
+neo,M843,"FRAC. PAR SOLLICITATION EXCESSIVE, NCA","Fracture par sollicitation excessive, non classée ailleurs",Anomalie de la continuité osseuse,M84
+neo,M844,"FRAC. PATHO., NCA","Fracture pathologique, non classée ailleurs",Anomalie de la continuité osseuse,M84
+neo,M861,"OSTEOMYELITES AIG., NCA",Autres ostéomyélites aiguës,Ostéomyélite,M86
+neo,M865,"OSTEOMYELITES HEMATOGENES CHRON., NCA",Autres ostéomyélites hématogènes chroniques,Ostéomyélite,M86
+neo,M866,"OSTEOMYELITES CHRON., NCA",Autres ostéomyélites chroniques,Ostéomyélite,M86
+neo,M868,"OSTEOMYELITES, NCA",Autres ostéomyélites,Ostéomyélite,M86
+neo,M869,"OSTEOMYELITE, SAI","Ostéomyélite, sans précision",Ostéomyélite,M86
+neo,M879,"OSTEONECROSE, SAI","Ostéonécrose, sans précision",Ostéonécrose,M87
+neo,M911,OSTEOCHONDRITE JUV. DE LA TETE DU FEMUR,Ostéochondrite juvénile de la tête du fémur [Legg-Calvé-Perthes],Ostéochondrite juvénile de la hanche et du bassin,M91
+neo,M941,POLYCHONDRITE RECIDIVANTE,Polychondrite récidivante,Autres affections du cartilage,M94
+neo,M948,"AFF. PREC. DU CARTILAGE, NCA",Autres affections précisées du cartilage,Autres affections du cartilage,M94
+neo,M954,DEFORM. DU THOR. ET DES COTES,Déformation du thorax et des côtes,"Autres déformations du système ostéo-articulaire, des muscles et du tissu conjonctif",M95
+digest,N132,HYDRONEPHROSE AVEC OBSTRU. CALCULEUSE RENALE ET URETERALE,Hydronéphrose avec obstruction calculeuse rénale et urétérale,Uropathie obstructive et par reflux,N13
+otherncd,N133,"HYDRONEPHROSES, NCA OU SAI","Hydronéphroses, autres et sans précision",Uropathie obstructive et par reflux,N13
+otherncd,N134,HYDRO-URETERE,Hydro-uretère,Uropathie obstructive et par reflux,N13
+otherncd,N135,"COUDURE ET RETREC. URETERAL, SANS HYDRONEPHROSE","Coudure et rétrécissement urétéral, sans hydronéphrose",Uropathie obstructive et par reflux,N13
+otherncd,N136,PYONEPHROSE,Pyonéphrose,Uropathie obstructive et par reflux,N13
+otherncd,N137,UROPATHIE ASSOCIEE A UN REFLUX VESICO-URETERAL,Uropathie associée à un reflux vésico-urétéral,Uropathie obstructive et par reflux,N13
+otherncd,N138,"UROPATHIES OBSTRU. ET PAR REFLUX, NCA",Autres uropathies obstructives et par reflux,Uropathie obstructive et par reflux,N13
+otherncd,N139,"UROPATHIE OBSTRU., SAI","Uropathie obstructive (et par reflux), sans précision",Uropathie obstructive et par reflux,N13
+cvd,N140,NEPHROPATHIE DUE A UN ANALGESIQUE,Néphropathie due à un analgésique,Atteintes tubulo-interstitielles et tubulaires dues à des médicaments et des métaux lourds,N14
+neo,N170,INSUF. RENALE AIG. AVEC NECROSE TUBUL.,Insuffisance rénale aiguë avec nécrose tubulaire,Insuffisance rénale aiguë,N17
+neo,N171,INSUF. RENALE AIG. AVEC NECROSE CORTICALE AIG.,Insuffisance rénale aiguë avec nécrose corticale aiguë,Insuffisance rénale aiguë,N17
+neo,N179,"INSUF. RENALE AIG., SAI","Insuffisance rénale aiguë, sans précision",Insuffisance rénale aiguë,N17
+neo,N180,*** SU10 *** INSUF. RENALE TERMINALE,*** SU10 *** Insuffisance rénale terminale,Maladie rénale chronique,N18
+neo,N200,CALCUL DU REIN,Calcul du rein,Calcul du rein et de l'uretère,N20
+neo,N210,CALCUL DE LA VESSIE,Calcul de la vessie,Calcul des voies urinaires inférieures,N21
+neo,N280,ISCHEM. ET INFARCTUS DU REIN,Ischémie et infarctus du rein,"Autres affections du rein et de l'uretère, non classées ailleurs",N28
+neo,N288,"AFF. PREC. DU REIN ET DE L'URETERE, NCA",Autres affections précisées du rein et de l'uretère,"Autres affections du rein et de l'uretère, non classées ailleurs",N28
+neo,N289,"AFF. DU REIN ET DE L'URETERE, SAI","Affection du rein et de l'uretère, sans précision","Autres affections du rein et de l'uretère, non classées ailleurs",N28
+digest,N320,OBSTRU. DU COL DE LA VESSIE,Obstruction du col de la vessie,Autres affections de la vessie,N32
+neo,N321,FISTULE VESICO-INTEST.,Fistule vésico-intestinale,Autres affections de la vessie,N32
+neo,N328,"AFF. PREC. DE LA VESSIE, NCA",Autres affections précisées de la vessie,Autres affections de la vessie,N32
+neo,N329,"AFF. DE LA VESSIE, SAI","Affection de la vessie, sans précision",Autres affections de la vessie,N32
+neo,N359,"RETREC. URETRAL, SAI","Rétrécissement urétral, sans précision",Rétrécissement urétral,N35
+neo,N390,"INFECT. DES VOIES URIN., SIEGE SAI","Infection des voies urinaires, siège non précisé",Autres affections de l'appareil urinaire,N39
+neo,N399,"AFF. DE L'APP. URIN., SAI","Affection de l'appareil urinaire, sans précision",Autres affections de l'appareil urinaire,N39
+neo,N40,HYPERPLASIE DE LA PROSTATE,Hyperplasie de la prostate,Hyperplasie de la prostate,N40
+neo,N421,CONGESTION ET HEMORR. PROSTATIQUES,Congestion et hémorragie prostatiques,Autres affections de la prostate,N42
+neo,N429,"AFF. DE LA PROSTATE, SAI","Affection de la prostate, sans précision",Autres affections de la prostate,N42
+neo,N433,"HYDROCELE, SAI","Hydrocèle, sans précision",Hydrocèle et spermatocèle,N43
+neo,N450,"ORCHITE, EPIDIDYMITE ET EPIDIDYMO-ORCHITE, AVEC ABCES","Orchite, épididymite et épididymo-orchite, avec abcès",Orchite et épididymite,N45
+neo,N482,"AFF. INFL. DE LA VERGE, NCA",Autres affections inflammatoires de la verge,Autres affections de la verge,N48
+neo,N508,"AFF. PREC. DES ORG. GEN. DE L'HOMME, NCA",Autres affections précisées des organes génitaux de l'homme,Autres affections des organes génitaux de l'homme,N50
+neo,N709,"SALPINGITE ET OVARITE, SAI","Salpingite et ovarite, sans précision",Salpingite et ovarite,N70
+neo,N719,"AFF. INFL. DE L'UTERUS, SAI","Affection inflammatoire de l'utérus, sans précision","Affections inflammatoires de l'utérus, à l'exclusion du col",N71
+neo,N731,PARAMETRITE ET PHLEGMON PELVIEN CHRON.,Paramétrite et phlegmon pelvien chroniques,Autres affections inflammatoires pelviennes de la femme,N73
+neo,N735,"PELVIPERITONITE CHEZ LA FEMME, SAI","Pelvipéritonite chez la femme, sans précision",Autres affections inflammatoires pelviennes de la femme,N73
+neo,N739,"AFF. INFL. PELVIENNE DE LA FEMME, SAI","Affection inflammatoire pelvienne de la femme, sans précision",Autres affections inflammatoires pelviennes de la femme,N73
+neo,N760,VAGINITE AIG. OU SAI,Vaginite (aiguë),Autres inflammations du vagin et de la vulve,N76
+neo,N800,ENDOMETRIOSE DE L'UTERUS,Endométriose de l'utérus,Endométriose,N80
+neo,N823,FISTULE DU VAGIN AU COLON,Fistule du vagin au côlon,Fistules de l'appareil génital de la femme,N82
+neo,N824,"FISTULES INTESTINO-GEN. CHEZ LA FEMME, NCA",Autres fistules intestino-génitales chez la femme,Fistules de l'appareil génital de la femme,N82
+neo,N828,"FISTULES DE L'APP. GEN. DE LA FEMME, NCA",Autres fistules de l'appareil génital de la femme,Fistules de l'appareil génital de la femme,N82
+neo,N883,BEANCE DU COL DE L'UTERUS,Béance du col de l'utérus,Autres affections non inflammatoires du col de l'utérus,N88
+neo,N908,"AFF. NON INFL. PREC. DE LA VULVE ET DU PERINEE, NCA",Autres affections non inflammatoires précisées de la vulve et du périnée,Autres affections non inflammatoires de la vulve et du périnée,N90
+inj_trans,N920,MENSTRUATION ABONDANTE ET FREQUENTE AVEC CYCLE MENSTRUEL REGULIER,Menstruation trop abondante et trop fréquente avec cycle menstruel régulier,"Ménorragie, polyménorrhée et métrorragie",N92
+unintent,N930,SAIGNEMENTS POST-COITAUX ET DE CONTACT,Saignements post-coïtaux et de contact,Autres saignements anormaux de l'utérus et du vagin,N93
+neo,N939,"SAIGNEMENT ANL. DE L'UTERUS ET DU VAGIN, SAI","Saignement anormal de l'utérus et du vagin, sans précision",Autres saignements anormaux de l'utérus et du vagin,N93
+inj_trans,N948,"AFF. PREC. DES ORG. GEN. DE LA FEMME ET DU CYCLE MENSTRUEL, NCA",Autres affections précisées des organes génitaux de la femme et du cycle menstruel,Douleurs et autres affections des organes génitaux de la femme et du cycle menstruel,N94
+neo,N950,SAIGNEMENTS POST-MENOPAUSIQUES,Saignements post-ménopausiques,Troubles de la ménopause et autres troubles de la périménopause,N95
+neo,N952,VAGINITE ATROPHIQUE POST-MENOPAUSIQUE,Vaginite atrophique post-ménopausique,Troubles de la ménopause et autres troubles de la périménopause,N95
+neo,O660,DYSTOCIE DES EPAULES,Dystocie des épaules,Autres dystocies,O66
+neo,P000,N.N. AFF. PAR DES TBL. HYPERTENSIFS DE LA MERE,Foetus et nouveau-né affectés par des troubles hypertensifs de la mère,"Foetus et nouveau-né affectés par des affections maternelles, éventuellement sans rapport avec la grossesse actuelle",P00
+mater_neonat,P030,N.N. AFF. PAR UN ACCOUCH. ET UNE EXTRACTION PAR LE SIEGE,Foetus et nouveau-né affectés par un accouchement et une extraction par le siège,Foetus et nouveau-né affectés par d'autres complications du travail et de l'accouchement,P03
+cvd,P130,FRAC. DU CRANE DUE A UN TRAUMA. OBST.,Fracture du crâne due à un traumatisme obstétrical,Lésion du squelette due à un traumatisme obstétrical,P13
+otherncd,P220,SYND. DE DETRESSE RESP. DU N.N.,Syndrome de détresse respiratoire du nouveau-né,Détresse respiratoire du nouveau-né,P22
+otherncd,P236,PNEUMOPATHIE CONG. DUE A D'AUTRES AGENTS BACT.,Pneumopathie congénitale due à d'autres agents bactériens,Pneumopathie congénitale,P23
+neo,P240,ASPIRATION NEONAT. DE MECONIUM,Aspiration néonatale de méconium,Syndromes néonatals d'aspiration,P24
+neo,P250,EMPHYSEME INTERST. SURVENANT PENDANT LA PERIODE PERINAT.,Emphysème interstitiel survenant pendant la période périnatale,Emphysème interstitiel et affections apparentées survenant pendant la période périnatale,P25
+neo,P280,ATELECTASIE PRIMITIVE DU N.N.,Atélectasie primitive du nouveau-né,Autres affections respiratoires survenant pendant la période périnatale,P28
+neo,P290,INSUF. CARD. NEONAT.,Insuffisance cardiaque néonatale,Affections cardio-vasculaires survenant pendant la période périnatale,P29
+neo,P360,"INFECT. DU N.N. A STREPTO., GROUPE B","Infection du nouveau-né à streptocoques, groupe B",Infection bactérienne du nouveau-né,P36
+neo,P910,ISCHEM. CEREB. NEONAT.,Ischémie cérébrale néonatale,Autres affections cérébrales du nouveau-né,P91
+neo,P960,INSUF. RENALE CONG.,Insuffisance rénale congénitale,Autres affections dont l'origine se situe dans la période périnatale,P96
+otherncd,Q000,ANENCEPHALIE,Anencéphalie,Anencéphalie et malformations similaires,Q00
+otherncd,Q200,TRONC ART. COMMUN,Tronc artériel commun,Malformations congénitales des cavités et des orifices cardiaques,Q20
+otherncd,Q210,C.I.V.,Communication interventriculaire,Malformations congénitales des cloisons cardiaques,Q21
+otherncd,Q230,STENOSE CONG. DE LA VALV. AORT.,Sténose congénitale de la valvule aortique,Malformations congénitales des valvules aortique et mitrale,Q23
+otherncd,Q240,DEXTROCARDIE,Dextrocardie,Autres malformations congénitales cardiaques,Q24
+otherncd,Q250,PERMEABILITE DU CANAL ART.,Perméabilité du canal artériel,Malformations congénitales des gros vaisseaux,Q25
+otherncd,Q280,MALF. ARTERIOVEINEUSE DE VSSX. PRECEREB.,Malformation artérioveineuse de vaisseaux précérébraux,Autres malformations congénitales de l'appareil circulatoire,Q28
+otherncd,Q310,PTERYGION DU LARYNX,Ptérygion du larynx,Malformations congénitales du larynx,Q31
+otherncd,Q330,POUMON KYSTIQUE CONG.,Poumon kystique congénital,Malformations congénitales du poumon,Q33
+otherncd,Q410,"ABSENCE, ATRESIE ET STENOSE CONG. DU DUODENUM","Absence, atrésie et sténose congénitales du duodénum","Absence, atrésie et sténose congénitales de l'intestin grêle",Q41
+neo,Q600,"AGENESIE RENALE, UNILAT.","Agénésie rénale, unilatérale",Agénésie rénale et autres défauts de développement rénal,Q60
+neo,Q610,KYSTE CONG. OU SAI DU REIN,Kyste (congénital unique) du rein,Maladies kystiques du rein,Q61
+otherncd,Q630,REIN SURNUMERAIRE,Rein surnuméraire,Autres malformations congénitales du rein,Q63
+neo,Q780,OSTEOGENESE IMPARFAITE,Ostéogénèse imparfaite,Autres ostéochondrodysplasies,Q78
+otherncd,Q790,HERNIE DIAPHRAGMATIQUE CONG.,Hernie diaphragmatique congénitale,"Malformations congénitales du système ostéo-articulaire et des muscles, non classées ailleurs",Q79
+otherncd,Q820,LYMPHOEDEME HERED.,Lymphoedème héréditaire,Autres malformations congénitales de la peau,Q82
+neo,Q850,NEUROFIBROMATOSE,Neurofibromatose (non maligne),"Phacomatoses, non classées ailleurs",Q85
+neo,Q870,SYND. CONG. MALF. ATTEIGNANT L'ASPECT DE LA FACE,Syndromes congénitaux malformatifs atteignant principalement l'aspect de la face,Autres syndromes congénitaux malformatifs précisés atteignant plusieurs systèmes,Q87
+otherncd,Q890,MALF. CONG. DE LA RATE,Malformations congénitales de la rate,"Autres malformations congénitales, non classées ailleurs",Q89
+otherncd,Q899,"MALF. CONG., SAI","Malformation congénitale, sans précision","Autres malformations congénitales, non classées ailleurs",Q89
+otherncd,Q910,"TRISOMIE 18, NON-DISJONCTION MEIOTIQUE","Trisomie 18, non-disjonction méïotique",Syndrome d'Edwards et syndrome de Patau,Q91
+neo,Q990,"CHIMERE 46,XX/46,XY","Chimère 46,XX/46,XY","Autres anomalies des chromosomes, non classées ailleurs",Q99
+neo,Q999,"ANOM. CHROMOS., SAI","Anomalie chromosomique, sans précision","Autres anomalies des chromosomes, non classées ailleurs",Q99
+neo,R001,"BRADYCARDIE, SAI","Bradycardie, sans précision",Anomalies du rythme cardiaque,R00
+neo,R02,"GANGRENE, NCA","Gangrène, non classée ailleurs","Gangrène, non classée ailleurs",R02
+neo,R040,EPISTAXIS,Épistaxis,Hémorragie des voies respiratoires,R04
+neo,R042,HEMOPTYSIE,Hémoptysie,Hémorragie des voies respiratoires,R04
+neo,R048,HEMORR. D'AUTRES PARTIES DES VOIES RESP.,Hémorragie d'autres parties des voies respiratoires,Hémorragie des voies respiratoires,R04
+neo,R060,DYSPNEE,Dyspnée,Anomalies de la respiration,R06
+neo,R090,ASPHYXIE,Asphyxie,Autres symptômes et signes relatifs aux appareils circulatoire et respiratoire,R09
+neo,R092,ARRET RESP.,Arrêt respiratoire,Autres symptômes et signes relatifs aux appareils circulatoire et respiratoire,R09
+neo,R098,"SYMPT. ET SIGNES PREC. RELAT. AUX APP. CIRC. ET RESP., NCA",Autres symptômes et signes précisés relatifs aux appareils circulatoire et respiratoire,Autres symptômes et signes relatifs aux appareils circulatoire et respiratoire,R09
+otherncd,R100,SYND. ABDO. AIG.,Syndrome abdominal aigu,Douleur abdominale et pelvienne,R10
+neo,R104,"DOULEURS ABDO., NCA OU SAI","Douleurs abdominales, autres et non précisées",Douleur abdominale et pelvienne,R10
+neo,R13,DYSPHAGIE,Dysphagie,Dysphagie,R13
+neo,R190,TUMEFACTION ET MASSE INTRA-ABDO. ET PELVIENNES,Tuméfaction et masse intra-abdominales et pelviennes,Autres symptômes et signes relatifs à l'appareil digestif et à l'abdomen,R19
+neo,R198,"SYMPT. ET SIGNES PREC. RELAT. A L'APP. DIG. ET A L'ABDO., NCA",Autres symptômes et signes précisés relatifs à l'appareil digestif et à l'abdomen,Autres symptômes et signes relatifs à l'appareil digestif et à l'abdomen,R19
+neo,R222,"TUMEFACTION ET MASSE LOC., NIV. TRONC","Tuméfaction et masse localisées, au niveau du tronc",Autres tuméfactions et masses localisées de la peau et du tissu cellulaire sous-cutané,R22
+neo,R418,"SYMPT. ET SIGNES RELAT. AUX FCT. COGNIT., A LA CONSCIENCE, NCA OU SAI","Symptômes et signes relatifs aux fonctions cognitives et à la conscience, autres et non précisés",Autres symptômes et signes relatifs aux fonctions cognitives et à la conscience,R41
+neo,R53,MALAISE ET FATIGUE,Malaise et fatigue,Malaise et fatigue,R53
+neo,R54,SENILITE,Sénilité,Sénilité,R54
+neo,R55,SYNCOPE ET COLLAPSUS,Syncope et collapsus (sauf choc),Syncope et collapsus (sauf choc),R55
+neo,R568,"CONVULSIONS, NCA OU SAI","Convulsions, autres et non précisées","Convulsions, non classées ailleurs",R56
+neo,R570,CHOC CARDIOGENIQUE,Choc cardiogénique,"Choc, non classé ailleurs",R57
+neo,R578,"CHOCS, NCA",Autres chocs,"Choc, non classé ailleurs",R57
+neo,R579,"CHOC, SAI","Choc, sans précision","Choc, non classé ailleurs",R57
+neo,R58,"HEMORR., NCA","Hémorragie, non classée ailleurs","Hémorragie, non classée ailleurs",R58
+neo,R599,"ADENOPATHIE, SAI","Adénopathie, sans précision",Adénopathies,R59
+neo,R628,"RETARDS DU DEVELOP. PHYSIO., NCA",Autres retards du développement physiologique,Retard du développement physiologique,R62
+neo,R630,ANOREXIE,Anorexie,Symptômes et signes relatifs à l'absorption d'aliments et de liquides,R63
+neo,R636,INGESTION INSUFFISANTE D'ALIMENTS ET DE LIQUIDES,Ingestion insuffisante d'aliments et de liquides,Symptômes et signes relatifs à l'absorption d'aliments et de liquides,R63
+neo,R64,CACHEXIE,Cachexie,Cachexie,R64
+otherncd,R659,SYND. REPONSE INFLAM. SYST. SAI,"Syndrome de réponse inflammatoire systémique, sans précision",Syndrome de réponse inflammatoire systémique,R65
+neo,R688,"SYMPT. ET SIGNES GX. PREC., NCA",Autres symptômes et signes généraux précisés,Autres symptômes et signes généraux,R68
+neo,R75,MISE EN EVIDENCE PAR DES EX. DE LABORATOIRE DU V.I.H.,Mise en évidence par des examens de laboratoire du virus de l'immunodéficience humaine [VIH],Mise en évidence par des examens de laboratoire du virus de l'immunodéficience humaine [VIH],R75
+neo,R91,RES. ANX. D'IMAGE DU POUMON,Résultats anormaux d'imagerie diagnostique du poumon,Résultats anormaux d'imagerie diagnostique du poumon,R91
+unintent,R960,MORT INSTANTANEE,Mort instantanée,Autre mort subite de cause inconnue,R96
+inj_trans,R99,"CAUSES DE MORTALITE MAL DEFINIES ET SAI, NCA",Autres causes de mortalité mal définies et non précisées,Autres causes de mortalité mal définies et non précisées,R99
+inj_trans,V180,"CONDUCT. CYCL. BLES. DS ACCID. DE TRANSP., SANS COLL., AHC","Conducteur d'un cycle blessé dans un accident de transport, sans collision, hors circulation","Cycliste blessé dans un accident de transport, sans collision",V18
+inj_trans,V290,"CONDUCT. MOTO BLES. DS COLL. AV. VEHIC. MOT., NCA, SAI, AHC","Conducteur d'un motocycle blessé dans une collision avec des véhicules à moteur, autres et sans précision, accident hors circulation","Motocycliste blessé dans des accidents de transport, autres et sans précision",V29
+inj_trans,V670,"CONDUCT. VEHIC. LRD. BLES. DS COLL. AV. OBJ. FIXE, AHC","Conducteur d'un véhicule lourd blessé dans une collision avec un objet fixe ou stationnaire, accident hors circulation",Occupant d'un véhicule lourd blessé dans une collision avec un objet fixe ou stationnaire,V67
+inj_trans,V800,CHUTE OU ÉJECTION PERS. MONTANT ANIM. DS ACCID. SANS COLL.,Chute ou éjection d'une personne montant un animal ou occupant un véhicule à traction animale dans un accident sans collision,Personne montant un animal ou occupant un véhicule à traction animale blessée dans un accident de transport,V80
+inj_trans,V840,"CONDUCT. VEHIC. AGRIC., BLES. DS ADC","Conducteur d'un véhicule spécial utilisé essentiellement pour des travaux agricoles, blessé dans un accident de circulation","Occupant d'un véhicule spécial utilisé essentiellement pour des travaux agricoles, blessé dans un accident de transport",V84
+inj_trans,V860,"CONDUCT. VEHIC. TOUT-TER., BLES. DS ADC","Conducteur d'un véhicule tout-terrain, blessé dans un accident de circulation","Occupant d'un véhicule tout-terrain, blessé dans un accident de transport",V86
+inj_trans,V870,PERS. BLES. DS COLL. ENTRE UNE AUTO ET UN VEHIC. MOT. 2-3 R.,Personne blessée dans une collision entre une automobile et un véhicule à moteur à deux ou trois roues (dans la circulation),"Accident de la circulation d'un type précisé, sans que soit connu le mode de transport de la victime",V87
+inj_trans,V874,PERS. BLES. DS COLL. ENTRE UNE AUTO ET UN VEHIC. LRD.,Personne blessée dans une collision entre une automobile et un véhicule lourd (dans la circulation),"Accident de la circulation d'un type précisé, sans que soit connu le mode de transport de la victime",V87
+inj_trans,V877,PERS. BLES. DS COLL. ENTRE D'AUTRES VEHIC. MOT. PRÉCISÉS,Personne blessée dans une collision entre d'autres véhicules à moteur précisés (dans la circulation),"Accident de la circulation d'un type précisé, sans que soit connu le mode de transport de la victime",V87
+inj_trans,V878,"PERS. BLES. DS ACCID. TRANSP. NCA, SANS COLL., EN VEHIC. MOT.","Personne blessée dans d'autres accidents de transport précisés, sans collision, impliquant un véhicule à moteur (dans la circulation)","Accident de la circulation d'un type précisé, sans que soit connu le mode de transport de la victime",V87
+inj_trans,V887,"PERS. BLES. DS COLL. ENTRE D'AUTRES VEHIC. MOT. PRÉCISÉS, AHC","Personne blessée dans une collision entre d'autres véhicules à moteur précisés, hors circulation","Accident en dehors de la circulation d'un type précisé, sans que soit connu le mode de transport de la victime",V88
+inj_trans,V890,"PERS. BLES. DS ACCID. AV. VEHIC. MOT., SAI, AHC","Personne blessée dans un accident avec un véhicule à moteur, sans précision, hors circulation","Accident avec un véhicule avec ou sans moteur, type de véhicule non précisé",V89
+inj_trans,V892,"PERS. BLES. DS ACCID. DE CIRC. AV. VEHIC. MOT., SAI","Personne blessée dans un accident de la circulation avec un véhicule à moteur, sans précision","Accident avec un véhicule avec ou sans moteur, type de véhicule non précisé",V89
+inj_trans,V899,"PERS. BLES. DS ACCID. AV. VEHIC., SAI","Personne blessée dans un accident avec un véhicule, sans précision","Accident avec un véhicule avec ou sans moteur, type de véhicule non précisé",V89
+inj_trans,V920,"NOYADE DURANT TRANSP. PAR EAU EN NAVIRE MARCHAND, SANS ACCID.","Noyade et submersion durant un transport par eau impliquant un navire marchand, sans accident","Noyade et submersion durant un transport par eau, sans accident de bateau",V92
+inj_trans,V950,ACCID. D'HÉLICOPTÈRE BLESSANT UN OCCUP.,Accident d'hélicoptère blessant un occupant,Accident d'aéronef à moteur dans lequel un occupant est blessé,V95
+inj_trans,V960,ACCID. DE BALLON BLESSANT UN OCCUP.,Accident de ballon blessant un occupant,Accident d'aéronef sans moteur dans lequel un occupant est blessé,V96
+neo,X00,"EXPOS. À UN FEU NON MAITR., DS BATIM.","Exposition à un feu non maîtrisé, dans un bâtiment ou un ouvrage","Exposition à un feu non maîtrisé, dans un bâtiment ou un ouvrage",X00
+neo,X40,"INTOX. ACCID. ANALG., ANTIPYR., ANTIRHUM. NON OPIAC.","Intoxication accidentelle par des analgésiques, antipyrétiques et antirhumatismaux, non opiacés et exposition à ces produits","Intoxication accidentelle par des analgésiques, antipyrétiques et antirhumatismaux, non opiacés et exposition à ces produits",X40
+neo,X590,"EXPOS. À DES FACTEURS SAI, RESPONSABLES DE FRACTURE",Exposition à des facteurs non précisés responsables de fracture,"Exposition à des facteurs, sans précision",X59
+neo,X599,"EXPOS. À DES FACTEURS SAI, RESPONSABLES DE LES. NCA OU SAI",Exposition à des facteurs non précisés responsables de lésions autres et non précisées,"Exposition à des facteurs, sans précision",X59
+neo,Y00,AGRESS. PAR OBJ. CONTONDANT,Agression par objet contondant,Agression par objet contondant,Y00
+neo,Y10,"INTOX. ANALG., ANTIPYR., ANTIRHUM. NON OPIAC.","Intoxication par des analgésiques, antipyrétiques et antirhumatismaux non opiacés et exposition à ces produits, intention non déterminée","Intoxication par des analgésiques, antipyrétiques et antirhumatismaux non opiacés et exposition à ces produits, intention non déterminée",Y10
+neo,Y20,"PENDAISON, INTENTION SAI","Pendaison, strangulation et suffocation, intention non déterminée","Pendaison, strangulation et suffocation, intention non déterminée",Y20
+neo,Y30,"CHUTE, SAUT OU PRÉCIPITATION DS LE VIDE, INTENTION SAI","Chute, saut ou précipitation dans le vide, intention non déterminée","Chute, saut ou précipitation dans le vide, intention non déterminée",Y30
+neo,Y350,INTERV. DE LA FORCE PUB. DUE A L'USAGE D'ARMES À FEU,Intervention de la force publique impliquant l'usage d'armes à feu,Intervention de la force publique,Y35
+neo,Y400,EFF. INDESIR. PÉNICILLINES (US. THER.),Effets indésirables des pénicillines au cours de leur usage thérapeutique,Effets indésirables des antibiotiques systémiques,Y40
+neo,Y420,EFF. INDESIR. GLUCOCORTIC. ET ANALOGUES SYNTHÉT. (US. THER.),Effets indésirables des glucocorticoïdes et analogues synthétiques au cours de leur usage thérapeutique,"Effets indésirables des hormones et leurs substituts synthétiques et antagonistes, non classés ailleurs",Y42
+neo,Y450,EFF. INDESIR. OPIOÏDES ET ANALGÉSIQUES APPARENTÉS (US. THER.),Effets indésirables des opioïdes et analgésiques apparentés au cours de leur usage thérapeutique,"Effets indésirables des médicaments analgésiques, antipyrétiques et anti-inflammatoires",Y45
+otherncd,Y520,"EFF. INDESIR. GLUCOS. CARDIOTON., MÉDIC. D'ACT. SIMIL. (US. THER.)",Effets indésirables des glucosides cardiotoniques et médicaments d'action similaire au cours de leur usage thérapeutique,Effets indésirables des substances agissant essentiellement sur le système cardio-vasculaire,Y52
+digest,Y600,"COUP., PIQ., PERFOR., HEMORR. ACCID. AU COURS ITV CHIR.","Coupure, piqûre, perforation ou hémorragie accidentelles au cours d'une intervention chirurgicale","Coupure, piqûre, perforation ou hémorragie accidentelles au cours d'actes médicaux et chirurgicaux",Y60
+unintent,Y830,"TRANSPLANT. ORG. ET REACT. ANL PAT., COMPLIC. ULT., SANS ACCID.","Intervention chirurgicale avec transplantation d'un organe entier à l'origine de réactions anormales du patient ou de complications ultérieures, sans mention d'accident au cours de l'intervention","Opération et autre acte chirurgical à l'origine de réactions anormales du patient ou de complications ultérieures, sans mention d'accident au cours de l'intervention",Y83
+inj_trans,Y850,SÉQUELLES ACCID. DE VEHIC. MOT.,Séquelles d'un accident de véhicule à moteur,Séquelles d'un accident de transport,Y85
+neo,Y870,SÉQUELLES AUTO-LESION,Séquelles d'une lésion auto-infligée,"Séquelles d'une lésion auto-infligée, d'une agression ou d'un événement d'intention non déterminée",Y87
+neo,Y872,SÉQUELLES EVENEM. D'INTENTION SAI,Séquelles d'un événement d'intention non déterminée,"Séquelles d'une lésion auto-infligée, d'une agression ou d'un événement d'intention non déterminée",Y87
+unintent,Y880,SÉQUELLES ADM. MÉDIC. ET SUBST. BIOL. PROV. EFF. INDESIR. (US. THER.),Séquelles de l'administration de médicaments et de substances biologiques ayant provoqué des effets indésirables au cours de leur usage thérapeutique,Actes médicaux et chirurgicaux considérés comme cause externe de séquelles,Y88
+unintent,Y899,"SÉQUELLES CAUSE EXTERNE, SAI","Séquelles de cause externe, sans précision",Séquelles d'autres causes externes,Y89

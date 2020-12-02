@@ -1,0 +1,17 @@
+Column name,Description
+Depth,Reported Depth in Meters
+Pressure,Pressure in decibars
+Temperature,Reported Temperature in Degrees Celcius
+Salinity,Reported Salinity based on Practical Salinity Scale 1978 UNESCO 1981a
+Density,Reported Potential Density of water
+SVA,Reported Specific Volume Anomaly
+DynHeight,Reported Dynamic Height in Dynamic Meters
+Oxygen,Reported milliliters of oxygen per Liter of seawater
+OxygenSat,Reported Oxygen Saturation in Percent
+Silicate,Reported Silicate Concentration in micro Mole per Liter
+Phosphate,Reported Phosphate Concentration in micro Mole per Liter
+Nitrate,Reported Nitrate Concentration in micro Mole per Liter
+Nitrite,Reported Nitrite Concentration in micro Mole per Liter
+Ammonium,Reported Ammonium Concentration in micro Mole per Liter
+Chlorophyll,Reported Chlorophyll-a content in micrograms per Liter
+Phaeophytin,Reported Phaeophytin content in micrograms per Liter
