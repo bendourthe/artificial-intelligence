@@ -53,6 +53,8 @@ import numpy as np
 
 
 ```python
+import warnings
+warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
 import seaborn as sns
 from jupyterthemes import jtplot
@@ -546,11 +548,10 @@ df.isnull().sum().max()
 sns.countplot('TenYearCHD', data=df, palette='coolwarm')
 plt.show()
 ```
-    
 
 
     
-![png](img/output_38_1.png)
+![png](img/output_38_0.png)
     
 
 
@@ -569,7 +570,7 @@ plt.show()
 
 
     
-![png](img/output_41_1.png)
+![png](img/output_41_0.png)
     
 
 
@@ -581,11 +582,10 @@ sns.distplot(df[df['TenYearCHD']==1]['totChol'], color='coral')
 plt.title('Cholesterol Level')
 plt.show()
 ```
-    
 
 
     
-![png](img/output_42_1.png)
+![png](img/output_42_0.png)
     
 
 
@@ -602,11 +602,10 @@ sns.distplot(df[df['TenYearCHD']==1]['diaBP'], color='coral')
 plt.title('Diastolic Blood Pressure')
 plt.show()
 ```
-   
 
 
     
-![png](img/output_43_1.png)
+![png](img/output_43_0.png)
     
 
 
@@ -618,11 +617,10 @@ sns.distplot(df[df['TenYearCHD']==1]['heartRate'], color='coral')
 plt.title('Heart Rate')
 plt.show()
 ```
-    
 
 
     
-![png](img/output_44_1.png)
+![png](img/output_44_0.png)
     
 
 
@@ -633,11 +631,11 @@ sns.distplot(df[df['TenYearCHD']==0]['glucose'], color='royalblue')
 sns.distplot(df[df['TenYearCHD']==1]['glucose'], color='coral')
 plt.title('Glucose Level')
 plt.show()
-```    
+```
 
 
     
-![png](img/output_45_1.png)
+![png](img/output_45_0.png)
     
 
 
@@ -970,9 +968,9 @@ print('\tMean f1-score:\t', np.round(np.mean(f1_lst), 2))
 
     MODEL EVALUATION
       Mean accuracy:    0.67
-      Mean precision:   0.24
-      Mean recall:      0.57
-      Mean f1-score:    0.34
+      Mean precision:   0.25
+      Mean recall:      0.6
+      Mean f1-score:    0.35
     
 
 **Then, we will generate predictions using the best model generated during cross-validation:**
@@ -1003,25 +1001,25 @@ print(classification_report(y_test, predictions))
     CONFUSION MATRIX
     
     Total number of
-      True positives:    95
-      True negatives:    426
-      False positives:   252    Type I error
-      False negatives:   24     Type II error
+      True positives:    91
+      True negatives:    421
+      False positives:   257    Type I error
+      False negatives:   28     Type II error
     
     
-    Correct classifications:      65.37 %
-    Incorrect classifications:    34.63 %
+    Correct classifications:      64.24 %
+    Incorrect classifications:    35.76 %
     
     CLASSIFICATION REPORT
     
                   precision    recall  f1-score   support
     
-               0       0.95      0.63      0.76       678
-               1       0.27      0.80      0.41       119
+               0       0.94      0.62      0.75       678
+               1       0.26      0.76      0.39       119
     
-        accuracy                           0.65       797
-       macro avg       0.61      0.71      0.58       797
-    weighted avg       0.85      0.65      0.70       797
+        accuracy                           0.64       797
+       macro avg       0.60      0.69      0.57       797
+    weighted avg       0.84      0.64      0.69       797
     
     
 
@@ -1034,7 +1032,7 @@ average_precision = average_precision_score(y_test, predictions)
 print('Average precision-recall score: {0:0.2f}'.format(average_precision))
 ```
 
-    Average precision-recall score: 0.25
+    Average precision-recall score: 0.24
     
 
 
