@@ -55,8 +55,8 @@ import numpy as np
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-%matplotlib inline
+from jupyterthemes import jtplot
+jtplot.style(theme='chesterish')
 ```
 
 ### Machine learning
@@ -281,7 +281,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_16_0.png)
+    
 
 
 We see a moderate correlation between _glucose_ and _diabetes_ which makes sense.
@@ -301,7 +303,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_19_0.png)
+    
 
 
 The correlation between diabetes and glucose seem strong enough to try and fill the missing _glucose_ values using the information from the _diabetes_ and _glucose_ columns.
@@ -542,9 +546,12 @@ df.isnull().sum().max()
 sns.countplot('TenYearCHD', data=df, palette='coolwarm')
 plt.show()
 ```
+    
 
 
-![png](img/output_38_0.png)
+    
+![png](img/output_38_1.png)
+    
 
 
 In this case, the dataset is clearly unbalanced, which was to be expected as most health-related datasets have usually less cases for the disease condition (thankfully!).
@@ -561,7 +568,9 @@ plt.show()
 ```
 
 
-![png](img/output_41_0.png)
+    
+![png](img/output_41_1.png)
+    
 
 
 
@@ -572,9 +581,12 @@ sns.distplot(df[df['TenYearCHD']==1]['totChol'], color='coral')
 plt.title('Cholesterol Level')
 plt.show()
 ```
+    
 
 
-![png](img/output_42_0.png)
+    
+![png](img/output_42_1.png)
+    
 
 
 
@@ -590,9 +602,12 @@ sns.distplot(df[df['TenYearCHD']==1]['diaBP'], color='coral')
 plt.title('Diastolic Blood Pressure')
 plt.show()
 ```
+   
 
 
-![png](img/output_43_0.png)
+    
+![png](img/output_43_1.png)
+    
 
 
 
@@ -603,9 +618,12 @@ sns.distplot(df[df['TenYearCHD']==1]['heartRate'], color='coral')
 plt.title('Heart Rate')
 plt.show()
 ```
+    
 
 
-![png](img/output_44_0.png)
+    
+![png](img/output_44_1.png)
+    
 
 
 
@@ -615,10 +633,12 @@ sns.distplot(df[df['TenYearCHD']==0]['glucose'], color='royalblue')
 sns.distplot(df[df['TenYearCHD']==1]['glucose'], color='coral')
 plt.title('Glucose Level')
 plt.show()
-```
+```    
 
 
-![png](img/output_45_0.png)
+    
+![png](img/output_45_1.png)
+    
 
 
 **CONCLUSION**
@@ -687,7 +707,7 @@ scaler.fit(X_train)
 
 
 
-    MinMaxScaler(copy=True, feature_range=(0, 1))
+    MinMaxScaler()
 
 
 
@@ -726,19 +746,10 @@ grid_SVC.fit(X_train_scaled, y_train)
 
 
 
-    GridSearchCV(cv=None, error_score=nan,
-                 estimator=SVC(C=1.0, break_ties=False, cache_size=200,
-                               class_weight=None, coef0=0.0,
-                               decision_function_shape='ovr', degree=3,
-                               gamma='scale', kernel='rbf', max_iter=-1,
-                               probability=False, random_state=None, shrinking=True,
-                               tol=0.001, verbose=False),
-                 iid='deprecated', n_jobs=None,
+    GridSearchCV(estimator=SVC(),
                  param_grid={'C': [0.001, 0.01, 0.1, 1, 10, 100],
                              'gamma': [1, 0.1, 0.01, 0.001, 0.0001],
-                             'kernel': ['rbf', 'poly', 'sigmoid', 'linear']},
-                 pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
-                 scoring=None, verbose=0)
+                             'kernel': ['rbf', 'poly', 'sigmoid', 'linear']})
 
 
 
@@ -774,7 +785,7 @@ print(classification_report(y_test, predictions))
     Total number of
       True positives:    12
       True negatives:    1004
-      False positives:   9    Type I error
+      False positives:   9      Type I error
       False negatives:   172    Type II error
     
     
@@ -831,7 +842,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_69_0.png)
+    
 
 
 **CONCLUSION**
@@ -956,10 +969,10 @@ print('\tMean f1-score:\t', np.round(np.mean(f1_lst), 2))
 ```
 
     MODEL EVALUATION
-      Mean accuracy:    0.66
-      Mean precision:   0.25
-      Mean recall:      0.66
-      Mean f1-score:    0.37
+      Mean accuracy:    0.67
+      Mean precision:   0.24
+      Mean recall:      0.57
+      Mean f1-score:    0.34
     
 
 **Then, we will generate predictions using the best model generated during cross-validation:**
@@ -990,25 +1003,25 @@ print(classification_report(y_test, predictions))
     CONFUSION MATRIX
     
     Total number of
-      True positives:    92
-      True negatives:    428
-      False positives:   250    Type I error
-      False negatives:   27     Type II error
+      True positives:    95
+      True negatives:    426
+      False positives:   252    Type I error
+      False negatives:   24     Type II error
     
     
-    Correct classifications:      65.24 %
-    Incorrect classifications:    34.76 %
+    Correct classifications:      65.37 %
+    Incorrect classifications:    34.63 %
     
     CLASSIFICATION REPORT
     
                   precision    recall  f1-score   support
     
-               0       0.94      0.63      0.76       678
-               1       0.27      0.77      0.40       119
+               0       0.95      0.63      0.76       678
+               1       0.27      0.80      0.41       119
     
         accuracy                           0.65       797
-       macro avg       0.60      0.70      0.58       797
-    weighted avg       0.84      0.65      0.70       797
+       macro avg       0.61      0.71      0.58       797
+    weighted avg       0.85      0.65      0.70       797
     
     
 
@@ -1021,7 +1034,7 @@ average_precision = average_precision_score(y_test, predictions)
 print('Average precision-recall score: {0:0.2f}'.format(average_precision))
 ```
 
-    Average precision-recall score: 0.24
+    Average precision-recall score: 0.25
     
 
 
@@ -1041,7 +1054,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_93_0.png)
+    
 
 
 ___
