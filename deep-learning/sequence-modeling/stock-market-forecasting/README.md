@@ -1403,7 +1403,7 @@ for win in historical_windows:
     exec("print('\t[Historical window = " + str(win) + " days]\t', np.round(prediction_" + str(win) + "[0][0], 4), ' USD')")
 ```
 
-   Predicted Closing Price for GNUS on Fri. Jul. 23, 2021
+    Predicted Closing Price for GNUS on Fri. Jul. 23, 2021
       [Historical window = 30 days]     1.9592  USD
       [Historical window = 90 days]     1.9102  USD
       [Historical window = 180 days]    1.7272  USD
