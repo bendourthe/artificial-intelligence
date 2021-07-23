@@ -1403,7 +1403,7 @@ for win in historical_windows:
     exec("print('\t[Historical window = " + str(win) + " days]\t', np.round(prediction_" + str(win) + "[0][0], 4), ' USD')")
 ```
 
-    [1mPredicted Closing Price for GNUS on Fri. Jul. 23, 2021 [0m
+   Predicted Closing Price for GNUS on Fri. Jul. 23, 2021
       [Historical window = 30 days]     1.9592  USD
       [Historical window = 90 days]     1.9102  USD
       [Historical window = 180 days]    1.7272  USD
@@ -1561,8 +1561,8 @@ print(f'\nTotal computation time: {total_time//3600:3.0f} hrs {(total_time - tot
     
 
 
-    [1m
-    Predicted Closing Price for GNUS on Fri. Jul. 23, 2021 [0m
+   
+    Predicted Closing Price for GNUS on Fri. Jul. 23, 2021
       [Historical window =  30 days]      1.96 USD  (up by    18.62 %)
       [Historical window =  90 days]      1.90 USD  (up by    14.95 %)
       [Historical window = 180 days]      1.91 USD  (up by    15.83 %)
@@ -1723,117 +1723,117 @@ print(f'\nTotal computation time: {total_time//3600:3.0f} hrs {(total_time - tot
       Training in progress...
       Training completed in   0 hrs   1 mins  13 secs
     
-    [1m    Predicted Closing Price for GOOG on Wed. Jul. 01, 2020 [0m  1378.84 USD  (🡖 by -2.46 %)
+       Predicted Closing Price for GOOG on Wed. Jul. 01, 2020  1378.84 USD  (🡖 by -2.46 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  29 secs
     
-    [1m    Predicted Closing Price for GOOG on Thu. Jul. 02, 2020 [0m  1427.93 USD  (🡖 by -0.70 %)
+       Predicted Closing Price for GOOG on Thu. Jul. 02, 2020  1427.93 USD  (🡖 by -0.70 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Mon. Jul. 06, 2020 [0m  1366.34 USD  (🡖 by -6.72 %)
+       Predicted Closing Price for GOOG on Mon. Jul. 06, 2020  1366.34 USD  (🡖 by -6.72 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  21 secs
     
-    [1m    Predicted Closing Price for GOOG on Tue. Jul. 07, 2020 [0m  1422.00 USD  (🡖 by -4.93 %)
+       Predicted Closing Price for GOOG on Tue. Jul. 07, 2020  1422.00 USD  (🡖 by -4.93 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Wed. Jul. 08, 2020 [0m  1431.62 USD  (🡖 by -3.61 %)
+       Predicted Closing Price for GOOG on Wed. Jul. 08, 2020  1431.62 USD  (🡖 by -3.61 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Thu. Jul. 09, 2020 [0m  1531.72 USD  (🡕 by 2.39 %)
+       Predicted Closing Price for GOOG on Thu. Jul. 09, 2020  1531.72 USD  (🡕 by 2.39 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Fri. Jul. 10, 2020 [0m  1504.95 USD  (🡖 by -0.40 %)
+       Predicted Closing Price for GOOG on Fri. Jul. 10, 2020  1504.95 USD  (🡖 by -0.40 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Mon. Jul. 13, 2020 [0m  1501.42 USD  (🡖 by -2.62 %)
+       Predicted Closing Price for GOOG on Mon. Jul. 13, 2020  1501.42 USD  (🡖 by -2.62 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Tue. Jul. 14, 2020 [0m  1535.92 USD  (🡕 by 1.63 %)
+       Predicted Closing Price for GOOG on Tue. Jul. 14, 2020  1535.92 USD  (🡕 by 1.63 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  26 secs
     
-    [1m    Predicted Closing Price for GOOG on Wed. Jul. 15, 2020 [0m  1523.72 USD  (🡕 by 0.21 %)
+       Predicted Closing Price for GOOG on Wed. Jul. 15, 2020  1523.72 USD  (🡕 by 0.21 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Thu. Jul. 16, 2020 [0m  1534.12 USD  (🡕 by 1.35 %)
+       Predicted Closing Price for GOOG on Thu. Jul. 16, 2020  1534.12 USD  (🡕 by 1.35 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Fri. Jul. 17, 2020 [0m  1506.37 USD  (🡖 by -0.77 %)
+       Predicted Closing Price for GOOG on Fri. Jul. 17, 2020  1506.37 USD  (🡖 by -0.77 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Mon. Jul. 20, 2020 [0m  1516.74 USD  (🡕 by 0.08 %)
+       Predicted Closing Price for GOOG on Mon. Jul. 20, 2020  1516.74 USD  (🡕 by 0.08 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Tue. Jul. 21, 2020 [0m  1519.02 USD  (🡖 by -2.98 %)
+       Predicted Closing Price for GOOG on Tue. Jul. 21, 2020  1519.02 USD  (🡖 by -2.98 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  19 secs
     
-    [1m    Predicted Closing Price for GOOG on Wed. Jul. 22, 2020 [0m  1583.26 USD  (🡕 by 1.59 %)
+       Predicted Closing Price for GOOG on Wed. Jul. 22, 2020  1583.26 USD  (🡕 by 1.59 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  20 secs
     
-    [1m    Predicted Closing Price for GOOG on Thu. Jul. 23, 2020 [0m  1613.95 USD  (🡕 by 2.90 %)
+       Predicted Closing Price for GOOG on Thu. Jul. 23, 2020  1613.95 USD  (🡕 by 2.90 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Fri. Jul. 24, 2020 [0m  1603.38 USD  (🡕 by 5.79 %)
+       Predicted Closing Price for GOOG on Fri. Jul. 24, 2020  1603.38 USD  (🡕 by 5.79 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Mon. Jul. 27, 2020 [0m  1567.51 USD  (🡕 by 3.68 %)
+       Predicted Closing Price for GOOG on Mon. Jul. 27, 2020  1567.51 USD  (🡕 by 3.68 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  22 secs
     
-    [1m    Predicted Closing Price for GOOG on Tue. Jul. 28, 2020 [0m  1583.14 USD  (🡕 by 3.46 %)
+       Predicted Closing Price for GOOG on Tue. Jul. 28, 2020  1583.14 USD  (🡕 by 3.46 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  20 secs
     
-    [1m    Predicted Closing Price for GOOG on Wed. Jul. 29, 2020 [0m  1571.58 USD  (🡕 by 4.75 %)
+       Predicted Closing Price for GOOG on Wed. Jul. 29, 2020  1571.58 USD  (🡕 by 4.75 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  19 secs
     
-    [1m    Predicted Closing Price for GOOG on Thu. Jul. 30, 2020 [0m  1476.87 USD  (🡖 by -2.97 %)
+       Predicted Closing Price for GOOG on Thu. Jul. 30, 2020  1476.87 USD  (🡖 by -2.97 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  16 secs
     
-    [1m    Predicted Closing Price for GOOG on Fri. Jul. 31, 2020 [0m  1544.49 USD  (🡕 by 0.85 %)
+       Predicted Closing Price for GOOG on Fri. Jul. 31, 2020  1544.49 USD  (🡕 by 0.85 %)
     
       Training in progress...
       Training completed in   0 hrs   1 mins  15 secs
     
-    [1m    Predicted Closing Price for GOOG on Mon. Aug. 03, 2020 [0m  1495.48 USD  (🡕 by 0.84 %)
+       Predicted Closing Price for GOOG on Mon. Aug. 03, 2020  1495.48 USD  (🡕 by 0.84 %)
     
 
 
