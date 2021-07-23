@@ -55,10 +55,12 @@ import numpy as np
 
 
 ```python
+import warnings
+warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-%matplotlib inline
+from jupyterthemes import jtplot
+jtplot.style(theme='chesterish')
 ```
 
 ### Machine learning
@@ -118,8 +120,8 @@ df.columns
 column_info('Nitrite')
 ```
 
-    Column name:     Nitrite 
-    Description:     Reported Nitrite Concentration in micro Mole per Liter
+    Column name:   Nitrite 
+    Description:   Reported Nitrite Concentration in micro Mole per Liter
     
 
 **Check the statistics of each column to have a better sense of the scale of each metric.**
@@ -539,7 +541,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_30_0.png)
+    
 
 
 **Now, let's calculate and plot the correlations only for the water temperature column.**
@@ -566,7 +570,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_33_0.png)
+    
 
 
 It seems like the SVA column has the highest correlation with water temperature.
@@ -582,7 +588,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_35_0.png)
+    
 
 
 These plots clearly show some expected relationships, such as a perfect linear correlation between Depth and Pressure.
@@ -596,8 +604,8 @@ It also confirms that water temperature and SVA seem to be linearly correlated.
 column_info('SVA')
 ```
 
-    Column name:     SVA 
-    Description:     Reported Specific Volume Anomaly
+    Column name:   SVA 
+    Description:   Reported Specific Volume Anomaly
     
 
 If we look for a more detailed description on Google, the Specific Volume Anomaly seem to be a function of absolute water salinity, conservative temperature and pressure.
@@ -611,7 +619,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_39_0.png)
+    
 
 
 **CONCLUSION**
@@ -651,6 +661,11 @@ lm.fit(X_train, y_train)
 
 
 
+
+    LinearRegression()
+
+
+
 **We can print the model's coefficients:**
 
 
@@ -682,7 +697,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_53_0.png)
+    
 
 
 **We can now calculate the mean absolute and mean squared errors.**
@@ -693,8 +710,8 @@ print('MAE:\t', np.round(mean_absolute_error(y_test, predictions),2), '\tDegC')
 print('MSE:\t', np.round(mean_squared_error(y_test, predictions),2), '\tDegC squared')
 ```
 
-    MAE:     0.75   DegC
-    MSE:     1.25   DegC squared
+    MAE:   0.75   DegC
+    MSE:   1.25   DegC squared
     
 
 **In this context, the mean squared error is probably the best representation of the error, as it will increase the penalty on outliers by squaring the corresponding error.**
@@ -706,7 +723,7 @@ Considering that squared degrees are not very intuitive to interpret, let's calc
 print('RMSE:\t', np.round(np.sqrt(mean_squared_error(y_test, predictions)),2), '\tDegC')
 ```
 
-    RMSE:    1.12   DegC
+    RMSE:  1.12   DegC
     
 
 **To better understand whether a 1.12 DegC difference is significant or not, let's compare it to the water temperature statistics:**
@@ -742,7 +759,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_61_0.png)
+    
 
 
 **CONCLUSION**
@@ -795,6 +814,11 @@ lm = LinearRegression()
 ```python
 lm.fit(X_train, y_train)
 ```
+
+
+
+
+    LinearRegression()
 
 
 
@@ -865,7 +889,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_76_0.png)
+    
 
 
 **Evaluate model:**
@@ -877,9 +903,9 @@ print('MSE:\t', np.round(mean_squared_error(y_test, predictions),2), '\tDegC squ
 print('RMSE:\t', np.round(np.sqrt(mean_squared_error(y_test, predictions)),2), '\tDegC')
 ```
 
-    MAE:     0.21   DegC
-    MSE:     0.1    DegC squared
-    RMSE:    0.31   DegC
+    MAE:   0.21   DegC
+    MSE:   0.1    DegC squared
+    RMSE:  0.31   DegC
     
 
 **Plot residuals:**
@@ -891,7 +917,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_80_0.png)
+    
 
 
 ___
@@ -900,6 +928,3 @@ ___
 The model was significantly improved after using all features, with an RMSE of 0.31 DegC compared to the 1.12 DegC obtained when only using the SVA column. This model could be used to predict ocean water temperature from water properties such as salinity, density and pressure. This also shows the potential impact of change in water properties on water temperature, which can be a valuable information when studying climate change and sea level rise.
 
 **This pipeline could easily be transferred to other linear regression problems.**
-
-
-

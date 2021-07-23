@@ -4,11 +4,12 @@ ___
 ___
 <center><em>For more information, visit <a href='http://www.dourthe.tech'>www.dourthe.tech</a></em></center>
 
+
 # Real vs. Fake News Classification using Natural Language Processing
 
 ___ 
 ## Objective
-Train a Naive Bayes machine learning model to detect Fake and Real news using Natural Language Processing.
+Train a machine learning model to detect Fake and Real news using Natural Language Processing.
 
  ___
 ## Dataset
@@ -39,10 +40,12 @@ import numpy as np
 
 
 ```python
+import warnings
+warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-%matplotlib inline
+from jupyterthemes import jtplot
+jtplot.style(theme='chesterish')
 ```
 
 ### Text processing
@@ -63,7 +66,6 @@ from nltk.corpus import stopwords
 ```python
 # For splitting data between training and test set
 from sklearn.model_selection import train_test_split
-
 
 # For generating pipelines
 from sklearn.pipeline import Pipeline
@@ -301,82 +303,82 @@ data.head(10)
   <tbody>
     <tr>
       <th>0</th>
-      <td>Leave It To Seth Meyers To Absolutely PUMMEL ...</td>
-      <td>It s gotten to the point that if you re still ...</td>
-      <td>News</td>
-      <td>June 7, 2016</td>
-      <td>Fake News</td>
+      <td>Mnuchin says trade focus with China is issue s...</td>
+      <td>WASHINGTON (Reuters) - U.S. Treasury Secretary...</td>
+      <td>politicsNews</td>
+      <td>June 6, 2017</td>
+      <td>Real News</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Ballet Dancing Great Who Defected From Soviet...</td>
-      <td>Mikhail Baryshnikov is one of the greatest bal...</td>
-      <td>News</td>
-      <td>August 17, 2016</td>
-      <td>Fake News</td>
+      <td>U.S. committed to Europe alliances: Haley</td>
+      <td>NEW YORK (Reuters) - NATO is the “strongest al...</td>
+      <td>politicsNews</td>
+      <td>February 21, 2017</td>
+      <td>Real News</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Meredith Corp. and Koch Money Buys Time Inc., ...</td>
-      <td>21st Century Wire says News broke Sunday night...</td>
-      <td>Middle-east</td>
-      <td>November 27, 2017</td>
-      <td>Fake News</td>
+      <td>U.N. mulls U.S. push for North Korea oil embar...</td>
+      <td>UNITED NATIONS (Reuters) - The United States w...</td>
+      <td>worldnews</td>
+      <td>September 6, 2017</td>
+      <td>Real News</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>HILLARY THROWS HER WEALTH AND STATUS Into The ...</td>
-      <td>Hillary Clinton has said a lot of things that ...</td>
-      <td>politics</td>
-      <td>Sep 16, 2016</td>
-      <td>Fake News</td>
+      <td>Turkey says hopes U.S. will lift decision on v...</td>
+      <td>ANKARA (Reuters) - Turkey hopes the United Sta...</td>
+      <td>worldnews</td>
+      <td>October 11, 2017</td>
+      <td>Real News</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>U.S. election agency breached by hackers after...</td>
-      <td>(Reuters) - The U.S. agency charged with ensur...</td>
+      <td>Trump takes first actions on Cabinet, declares...</td>
+      <td>WASHINGTON (Reuters) - Donald Trump took his f...</td>
       <td>politicsNews</td>
-      <td>December 15, 2016</td>
+      <td>January 20, 2017</td>
       <td>Real News</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>The U.S. Establishment vs The Rest of World</td>
-      <td>Thierry Meyssan Voltaire NetIt is a scandal wi...</td>
-      <td>US_News</td>
-      <td>August 1, 2017</td>
-      <td>Fake News</td>
+      <td>Czech parliament revokes Communist-era policem...</td>
+      <td>PRAGUE (Reuters) - The Czech parliament revoke...</td>
+      <td>worldnews</td>
+      <td>December 19, 2017</td>
+      <td>Real News</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>Hillary Just Showed The Whole World That She ...</td>
-      <td>Following Covfefe-gate, in which Trump made an...</td>
-      <td>News</td>
-      <td>June 1, 2017</td>
+      <td>WATCH: TOP 5 VIDEOS The Leftist Media Doesn’t ...</td>
+      <td>Organized protesters took to the streets outsi...</td>
+      <td>politics</td>
+      <td>Sep 12, 2017</td>
       <td>Fake News</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>Trump Plays Golf Again In Wake Of Damning Com...</td>
-      <td>Rather than stick around in Washington followi...</td>
-      <td>News</td>
-      <td>June 11, 2017</td>
+      <td>THE TRUTH ABOUT Why SORE LOSER Obama Is Using ...</td>
+      <td>Make no mistake: it s payback time. In orderin...</td>
+      <td>politics</td>
+      <td>Dec 13, 2016</td>
       <td>Fake News</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>Kosovo at risk of attacks by returning Islamis...</td>
-      <td>PRISTINA (Reuters) - Kosovo s government consi...</td>
-      <td>worldnews</td>
-      <td>November 13, 2017</td>
+      <td>Trump packs trade team with veterans of steel ...</td>
+      <td>WASHINGTON (Reuters) - President-elect Donald ...</td>
+      <td>politicsNews</td>
+      <td>December 9, 2016</td>
       <td>Real News</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>GOP Convention Chaos Ensues As Reince Priebus...</td>
-      <td>Anyone with a brain knows that Donald Trump is...</td>
-      <td>News</td>
-      <td>July 14, 2016</td>
+      <td>WHO WAS THE MOST “GOOGLED” CANDIDATE DURING TH...</td>
+      <td>The Washington Post is of course, befuddled as...</td>
+      <td>politics</td>
+      <td>Aug 7, 2015</td>
       <td>Fake News</td>
     </tr>
   </tbody>
@@ -405,7 +407,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_32_0.png)
+    
 
 
 
@@ -440,7 +444,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_36_0.png)
+    
 
 
 
@@ -484,7 +490,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_41_0.png)
+    
 
 
 
@@ -494,7 +502,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_42_0.png)
+    
 
 
 #### CONCLUSION
@@ -533,7 +543,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_49_0.png)
+    
 
 
 This plot indicates that the subjects are completely different between the Real and Fake News, which could create a bias in the machine learning algorithm. Indeed, if we create dummy variables based on the subjects, since there are no subjects including both Real and Fake News, the algorithm would quickly learn how to correctly classify Real and Fake News, but would most likely only learn from the subject, which do not seem to be a clear indication of the actual content of the article.
@@ -551,53 +563,53 @@ for sub in data['subject'].value_counts().index:
 ```
 
     politicsNews
-         U.S. election agency breached by hackers after November vote
-         Clinton more likely to win U.S. presidency than Trump: PredictIt
-         Senate confirms Trump's pick Zinke as Interior Secretary
-         JPMorgan's Dimon says Trump likely to be a one-term president
-         White House tax reform may begin in late spring: Spicer
+       Mnuchin says trade focus with China is issue specific
+       U.S. committed to Europe alliances: Haley
+       Trump takes first actions on Cabinet, declares day of patriotism: spokesman
+       Trump packs trade team with veterans of steel wars with China
+       German industry says vulnerable to Russia sanctions fall-out
     worldnews
-         Kosovo at risk of attacks by returning Islamist militants: report
-         Turkish asylum applications in Germany jump 55 percent this year
-         Turkish academics to be tried in April over Kurdish letter
-         Arsonists attack building used by controversial Russian director
-         Cuba urges U.S. not to politicize allegations of harmed diplomats
+       U.N. mulls U.S. push for North Korea oil embargo, textile export ban
+       Turkey says hopes U.S. will lift decision on visa embargo soon
+       Czech parliament revokes Communist-era policeman's election to oversight post
+       Demoralized and divided: inside Catalonia's police force
+       Austria's conservatives reach coalition deal with far right: Kurz
     News
-          Leave It To Seth Meyers To Absolutely PUMMEL Trump’s Obvious Racism And Fraud (VIDEO)
-          Ballet Dancing Great Who Defected From Soviet Union Says Trump’s America Would Be Like Russia
-          Hillary Just Showed The Whole World That She Can STILL Kick Trump’s A** (IMAGE)
-          Trump Plays Golf Again In Wake Of Damning Comey Testimony
-          GOP Convention Chaos Ensues As Reince Priebus Meets With #NeverTrump Delegates
+        Trump’s Love Of Dictators Continues – Now He’s Praising Saddam Hussein (VIDEO)
+        It Took A Scathing Letter From Canada’s Prime Minister To Make Fox News FINALLY Correct Fake Story
+        One Group Of GOP Voters May Vote Blue For The First Time In 60 Years Because Of Trump
+        Donald Trump ‘SHOCKED’ A Group Of Women Have Heard Of One Of The Most Famous Women In History (VIDEO)
+        U.S. Corporations Plead With Trump On Front Page Of NY Times: Don’t Abandon Paris Deal
     politics
-         HILLARY THROWS HER WEALTH AND STATUS Into The Faces Of Hard Working Americans
-         WOW! JEB BUSH Claims Roy Moore Should “Step Aside” On Same Day SIXTH Woman Accuses George HW Bush Of Sexual Assault: Groped Her When She “Was A Child”
-         “They Will Kill Him Before They Let Him Become President”
-         BREAKING: [Video] Obama’s State Dept Miraculously Finds 1,300+ Emails From Ambassador Chris Stevens 2 Days Before Hillary’s Testimony
-         DONALD TRUMP Calls Meeting With Press…Dresses Down Real Fake News Networks: “Everyone at CNN is a liar and you should be ashamed”
+       WATCH: TOP 5 VIDEOS The Leftist Media Doesn’t Want You to See Of KID ROCK Giving Back To Others
+       THE TRUTH ABOUT Why SORE LOSER Obama Is Using “Russian Hackers” Story [VIDEO]
+       WHO WAS THE MOST “GOOGLED” CANDIDATE DURING THE GOP PRIMARY DEBATE?
+       Ground Zero Mosque Was NOT Defeated: Three Story Islamic Museum And Muslim Prayer Space Will Take Its Place [Video]
+       HEY DEMOCRATS! Judicial Watch Just Discovered Hillary Invited Putin To 2009 Clinton Foundation Gala…Is This The Collusion You’ve Been Looking For?
     left-news
-         ACTORS QUIT “FERGUSON” PLAY DAYS BEFORE OPENING Because They Want Media’s Bogus “Hands Up Don’t Shoot” Version To Replace Actual Court Transcripts
-         AFGHAN INTERPRETER FOR US MURDERED BY TALIBAN WHILE WAITING 4 YRS FOR PROMISED VISA [Video]
-         NJ GOV CHRIS CHRISTIE Gets in Cubs Fan’s Face at Baseball Game…Not Pretty [Video]
-         MIKE HUCKABEE: “Somebody Needs To Go To Prison Over This…Worse Than A Mafia Shakedown”…How Obama Funneled Billions Of YOUR Tax Dollars To Radical Liberal Groups [VIDEO]
-         UNPRECEDENTED: New York Times To Run 30 Sec Ad During Oscars…Bashing Trump…Defending FAKE News [VIDEO]
+       D.C. BAR OWNER Where Seth Rich Was Last Seen Drops Bombshell: NO EMPLOYEES Of Bar Questioned By DC Police…Never Asked For Surveillance Tapes [VIDEO]
+       THINGS ARE ABOUT TO GET UGLY: GOP Introduces Plan To Stop $44 BILLION In Obama’s Last Minute Taxpayer Funded Regulations
+       (VIDEO) BALTIMORE MAYOR REOPENS LOOTED MALL: TELLS VENDORS THEY’RE MAKING A “GREAT INVESTMENT” BY STAYING
+       PANERA BREAD CEO 2014: “Don’t Bring Your Guns Into Restaurants”…UPDATE: Two MD Sheriffs Shot And KILLED In Panera Bread Restaurant
+       WOW! HILLARY’S UNCENSORED COMMENTS About Monica Lewinsky Revealed By Longtime Hillary Friend [VIDEO]
     Government News
-         “LITTLE” MARCO RUBIO GRILLS Trump’s Secretary Of State Nominee Like A Chihuahua Biting The Ankles Of Andre The Giant [Video]
-         WHY ARE GOOGLE AND FACEBOOK ATTENDING BILDERBERG’S 2015 LUXURY SECRET POLICY CONFERENCE?
-         Bah Humbug! Protest Petition Started After Obama Gave All Government Workers A Christmas Gift
-         BEST SUMMARY Yet Of The Shocking Clinton Uranium One Scandal From The Beginning
-         Obama Celebrates Iran Deal As Senior Iranian Officials Say They Will NOT Uphold Their End Of Deal…Ayatollah: “Negotiation with America is Forbidden,”
+       PRESIDENT TRUMP AND MELANIA Arrive in Poland to Cheering Crowds [Video]
+       HOUSE DEMOCRATS MAKE STUNNING Move To Implement Sharia Law In America
+       INVESTIGATION LAUNCHED: SECOND TRESPASSER May Have Been Near President Trump In U.S. Capitol [Video]
+       OBAMA’S BAILOUT OF PUERTO RICO: TAXPAYERS Take A BIG Hit But Rewards Go To Political And Financial Players
+       OBAMA RACES TO SET GITMO TERRORISTS FREE…Leaves Servicemen Punished For Making “Heat-of-the-battle decisions that saved lives” In Fort Leavenworth
     US_News
-         The U.S. Establishment vs The Rest of World
-         July 4th Schoolhouse Rock: ‘Preamble to the US Constitution’
-         HACKING DEMOCRACY? CIA Accusing Russia of Doing What Langley Does So Well
-         Sunnistan: US and Allied ‘Safe Zone’ Plan to Take Territorial Booty in Northern Syria
-         Boiler Room #105 – Quantum Swamp Chess
+       Uber, Google, Twitter, Netflix and Other Tech Giants File ‘Unlawful’ Immigration Retort Against Trump
+       The Wahabi Vote: Poll Shows 68 percent of Saudis prefer Hillary Clinton
+       SUNDAY SCREENING: Guns, Drugs & the CIA (1988)
+       Orlando Mass Shooting & The Accelerated Police State – UK Column – June 13, 2016
+       The Changing Face of Mainstream Media?
     Middle-east
-         Meredith Corp. and Koch Money Buys Time Inc., ‘Left’ Goes Bonkers
-         Hillary’s Secret Weapon: Evan McMullin is CIA-Goldman Sachs candidate, backed by Mitt Romney’s Wall Street Machine
-         Episode #149 – SUNDAY WIRE: ‘Part II: Another Road to Damascus’ with guests Vanessa Beeley, Ghoufran Derawan
-         SUNDAY SCREENING: 24 Hours After Hiroshima (2010)
-         Patrick Henningsen LIVE with guest Sean Stone – ‘Project for a New Global Government?’
+       Trump Asks O’Reilly, ‘Do you think our country is so innocent?’ After Pundit calls Putin ‘a killer’
+       BOMBSHELL: Classified NATO Report Praises Russia Airstrikes as ‘Efficient, and Accurate’ in Syria
+       EP #15: Patrick Henningsen LIVE – ‘Crisis of American Liberalism’ with guest Caleb Maupin
+       SUNDAY SCREENING: ‘The War on Democracy’ (2007)
+       Boiler Room EP #81 – Halloween Fireside Book of Suspense Vol. 1
     
 
 Before dropping the subject column completely, let's try to combine some of these subjects based on their similarities.
@@ -629,7 +641,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_55_0.png)
+    
 
 
 **CONCLUSION**
@@ -665,28 +679,17 @@ data['date'].value_counts()
 
 
 
-    December 20, 2017                                                                                                                                        182
-    December 6, 2017                                                                                                                                         166
-    November 30, 2017                                                                                                                                        162
-    November 9, 2017                                                                                                                                         158
-    October 13, 2017                                                                                                                                         155
-    September 21, 2017                                                                                                                                       153
-    September 6, 2017                                                                                                                                        151
-    December 21, 2017                                                                                                                                        151
-    September 7, 2017                                                                                                                                        149
-    September 22, 2017                                                                                                                                       146
-    
-                                                                                                                                                            ... 
-    January 24, 2016                                                                                                                                           1
-    November 19, 2017                                                                                                                                          1
-    December 22, 2017                                                                                                                                          1
-    December 25, 2016                                                                                                                                          1
-    September 3, 2016                                                                                                                                          1
-    MSNBC HOST Rudely Assumes Steel Worker Would Never Let His Son Follow in His Footsteps…He Couldn’t Be More Wrong [Video]                                   1
-    Jun 21, 2015                                                                                                                                               1
-    14-Feb-18                                                                                                                                                  1
-    May 14, 2016                                                                                                                                               1
-    August 21, 2016                                                                                                                                            1
+    December 20, 2017                                                                                                           182
+    December 6, 2017                                                                                                            166
+    November 30, 2017                                                                                                           162
+    November 9, 2017                                                                                                            158
+    October 13, 2017                                                                                                            155
+                                                                                                                               ... 
+    June 24, 2017                                                                                                                 1
+    October 22, 2017                                                                                                              1
+    MSNBC HOST Rudely Assumes Steel Worker Would Never Let His Son Follow in His Footsteps…He Couldn’t Be More Wrong [Video]      1
+    May 28, 2016                                                                                                                  1
+    November 12, 2017                                                                                                             1
     Name: date, Length: 2397, dtype: int64
 
 
@@ -728,7 +731,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_67_0.png)
+    
 
 
 
@@ -740,7 +745,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_68_0.png)
+    
 
 
 **CONCLUSION**
@@ -1016,7 +1023,7 @@ pipeline = Pipeline([
 ])
 ```
 
-### Input and label data definition
+### Input data and labels definition
 
 **We will start by only including the 'title' column as input.**
 
@@ -1039,6 +1046,14 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,random_s
 ```python
 pipeline.fit(X_train,y_train)
 ```
+
+
+
+
+    Pipeline(steps=[('bow', CountVectorizer()), ('tfidf', TfidfTransformer()),
+                    ('classifier', MultinomialNB())])
+
+
 
 ### Model evaluation
 
@@ -1114,6 +1129,15 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,random_s
 pipeline.fit(X_train,y_train)
 ```
 
+
+
+
+    Pipeline(steps=[('bow', CountVectorizer()), ('tfidf', TfidfTransformer()),
+                    ('classifier', MultinomialNB())])
+
+
+
+
 ```python
 predictions = pipeline.predict(X_test)
 ```
@@ -1185,6 +1209,15 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,random_s
 ```python
 pipeline.fit(X_train,y_train)
 ```
+
+
+
+
+    Pipeline(steps=[('bow', CountVectorizer()), ('tfidf', TfidfTransformer()),
+                    ('classifier', MultinomialNB())])
+
+
+
 
 ```python
 predictions = pipeline.predict(X_test)

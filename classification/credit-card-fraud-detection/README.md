@@ -33,10 +33,12 @@ import numpy as np
 
 
 ```python
+import warnings
+warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-%matplotlib inline
+from jupyterthemes import jtplot
+jtplot.style(theme='chesterish')
 ```
 
 ### Machine learning
@@ -277,7 +279,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_17_0.png)
+    
 
 
 As mentioned in the description of the dataset, it is extremely unbalanced.
@@ -364,7 +368,7 @@ scaler.fit(X_train)
 
 
 
-    MinMaxScaler(copy=True, feature_range=(0, 1))
+    MinMaxScaler()
 
 
 
@@ -423,9 +427,6 @@ for train, test in skf.split(X_train_scaled, y_train):
     auc_lst.append(roc_auc_score(y_train[test], predictions))
 ```
 
-    
-    
-
 **Save the model.**
 
 
@@ -447,10 +448,10 @@ print('\tMean f1-score:\t', np.round(np.mean(f1_lst), 2))
 ```
 
     MODEL EVALUATION
-      Mean accuracy:    0.96
+      Mean accuracy:    0.95
       Mean precision:   0.07
       Mean recall:      0.91
-      Mean f1-score:    0.13
+      Mean f1-score:    0.12
     
 
 **Then, we will generate predictions using the best model generated during cross-validation:**
@@ -481,24 +482,24 @@ print(classification_report(y_test, predictions))
     CONFUSION MATRIX
     
     Total number of
-      True positives:    84
-      True negatives:    56325
-      False positives:   538    Type I error
-      False negatives:   14     Type II error
+      True positives:    83
+      True negatives:    56184
+      False positives:   679    Type I error
+      False negatives:   15     Type II error
     
     
-    Correct classifications:      99.03 %
-    Incorrect classifications:    0.97 %
+    Correct classifications:      98.78 %
+    Incorrect classifications:    1.22 %
     
     CLASSIFICATION REPORT
     
                   precision    recall  f1-score   support
     
-               0       1.00      0.99      1.00     56863
-               1       0.14      0.86      0.23        98
+               0       1.00      0.99      0.99     56863
+               1       0.11      0.85      0.19        98
     
         accuracy                           0.99     56961
-       macro avg       0.57      0.92      0.61     56961
+       macro avg       0.55      0.92      0.59     56961
     weighted avg       1.00      0.99      0.99     56961
     
     
@@ -512,7 +513,7 @@ average_precision = average_precision_score(y_test, predictions)
 print('Average precision-recall score: {0:0.2f}'.format(average_precision))
 ```
 
-    Average precision-recall score: 0.12
+    Average precision-recall score: 0.09
     
 
 
@@ -532,7 +533,9 @@ plt.show()
 ```
 
 
+    
 ![png](img/output_48_0.png)
+    
 
 
 ___
