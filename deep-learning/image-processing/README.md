@@ -14,4 +14,3 @@ This folder contains details on the implementation of a 3D Fully Convolutional N
 ### Medical autosegmentation CNN
 This folder contains details on the implementation of a 2D Convolutional Neural Network designed for the automated segmentation of spinal muscles from Upright Open MR images of the spine.
 
-
