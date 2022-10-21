@@ -1081,7 +1081,7 @@ print(f'\033[1m\nTotal computing time:\033[0m {total_time//3600:2.0f} hrs '
     
     	Checkpoint -> Model saved at  500/500 epochs
     
-![png](img/output_24_1.png)
+![png](img/output_24_1.jpg)
     
     Total computing time:  8 hrs 58 mins 45 secs
     
@@ -1498,9 +1498,9 @@ print(f'\033[1m\nTotal computing time:\033[0m {total_time//3600:2.0f} hrs '
     
     	Checkpoint -> Model saved at 2000/2000 epochs
     
-![png](img/output_26_1.png)
+![png](img/output_26_1.jpg)
        
-![png](img/output_26_2.png)
+![png](img/output_26_2.jpg)
     
     Total computing time: 106 hrs 53 mins 46 secs
     
@@ -1602,25 +1602,25 @@ for lr_file, hr_file in np.transpose([lr_files, hr_files])[idx_list]:
     ax.axes.get_yaxis().set_visible(False)
 ```
 
-![png](img/output_28_0.png)
+![png](img/output_28_0.jpg)
     
-![png](img/output_28_1.png)
+![png](img/output_28_1.jpg)
     
-![png](img/output_28_2.png)
+![png](img/output_28_2.jpg)
     
-![png](img/output_28_3.png)
+![png](img/output_28_3.jpg)
     
-![png](img/output_28_4.png)
+![png](img/output_28_4.jpg)
  
-![png](img/output_28_5.png)
+![png](img/output_28_5.jpg)
     
-![png](img/output_28_6.png)
+![png](img/output_28_6.jpg)
 
-![png](img/output_28_7.png)
+![png](img/output_28_7.jpg)
   
-![png](img/output_28_8.png)
+![png](img/output_28_8.jpg)
  
-![png](img/output_28_9.png)
+![png](img/output_28_9.jpg)
 
 ___
 # Observations
