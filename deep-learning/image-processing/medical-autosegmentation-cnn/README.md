@@ -1,13 +1,16 @@
-# Automated Segmentation of Medical Images Using a Convolutional Neural Network
+___
 
+<a href='https://www.dourthe-technologies.com'> <img src='img/Dourthe_Technologies_Headers.png' /></a>
+___
+<center><em>For more information, visit <a href='https://www.dourthe-technologies.com'> www.dourthe-technologies.com</a></em></center>
+
+# Automated Segmentation of Medical Images Using a Convolutional Neural Network
 
 ## Objectives
 To train a Neural Network to automatically segment a selection of regions of interest (ROIs) from medical imaging data.
 
-
 ## Neural Network Architecture
 The selected architecture is a Multiscale Pyramid 2D Convolutional Neural Network (Dourthe et al. (2021) [1]), which was chosen based on its reported ability to accurately extract contextual and morphological information from medical images at various scales.
-
 
 ## How to Use
 
@@ -58,7 +61,6 @@ In the Settings section:
 
 ### Run the Notebook
 Once the Settings have been edited, run each cell of the notebook and wait for training to be completed.
-
 
 ## References
 [1] Dourthe B, Shaikh N, S AP, Fels S, Brown SHM, Wilson DR, Street J, Oxland TR. Automated Segmentation of spinal Muscles from Upright Open MRI Using a Multi-Scale Pyramid 2D Convolutional Neural Network. Spine (Phila Pa 1976). 2021 Dec 15. doi: 10.1097/BRS.0000000000004308. PMID: 34919072. https://pubmed.ncbi.nlm.nih.gov/34919072/
