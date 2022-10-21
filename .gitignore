@@ -1,0 +1,10 @@
+# In the sections below, indicate the full path towards the sub-directory or file
+# that you wish not to keep synced with GitHub
+
+# NOTE: Any file larger than 50MB will not be uploaded and result in a push error.
+
+# general
+.ipynb_checkpoints
+__pycache__/ 
+/project-eyas/**/*.pyc
+/.idea
