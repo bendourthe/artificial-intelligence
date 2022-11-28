@@ -12,7 +12,7 @@ To train a Neural Network to automatically segment a selection of regions of int
 ## Neural Network Architecture
 The selected architecture is a Multiscale Pyramid 2D Convolutional Neural Network (Dourthe et al. (2021) [1]), which was chosen based on its reported ability to accurately extract contextual and morphological information from medical images at various scales.
 
-## How to Use
+## Instructions
 
 ### Requirements
 Create a new Python 3.10 environment and install requirements.txt within this environment.
