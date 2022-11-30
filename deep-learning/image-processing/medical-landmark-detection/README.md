@@ -42,12 +42,12 @@ Here are the supported data formats:
 #### Labels File
 The CSV file containing the ground truth landmarks coordinates (in pixel coordinates) should have the following structure:
 
- | L1 | L2 | ... | Ln |
---- | --- | --- | --- | --- |
-filename_1 | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) | 
-filename_2 | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) | 
-... | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) | 
-filename_m | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) |
+|     | L1 | L2 | ... | Ln |
+| --- | --- | --- | --- | --- |
+| filename_1 | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) | 
+| filename_2 | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) | 
+| ... | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) | 
+| filename_m | (L1_x, L1_y) | (L2_x, L2_y) | ... | (Ln_x, Ln_y) |
 
 Where each filename should perfectly match with the filename of the corresponding image.
 
@@ -81,7 +81,7 @@ Two BAT files were defined to run the training and testing of the landmark detec
 #### Training BAT file (train.bat)
 The training BAT file has the following content:
 
-'''
+<pre>
 @ECHO OFF
 call C:\Users\username\anaconda3\Scripts\activate.bat medical_landmark_detection_env
 ECHO #-----------------------------------------------------------------------------#
@@ -90,7 +90,7 @@ ECHO #--------------------------------------------------------------------------
 call cd C:\Users\username\local-folder-path\medical-landmark-detection
 call python main.py -d runs -r unet2d_runs -p train -m unet2d -e 50 -ds cervical_spine
 PAUSE nul | set /p "=<Hit Enter To Close Window>"
-'''
+</pre>
 
 To allow it to run on your local computer, make sure to right click on train.bat, edit, and change the following sections:
 
@@ -115,7 +115,7 @@ To allow it to run on your local computer, make sure to right click on train.bat
 #### Testing BAT file (test.bat)
 The testing BAT file has the following content:
 
-'''
+<pre>
 @ECHO OFF
 call C:\Users\username\anaconda3\Scripts\activate.bat medical_landmark_detection_env
 ECHO #-----------------------------------------------------------------------------#
@@ -124,7 +124,7 @@ ECHO #--------------------------------------------------------------------------
 call cd C:\Users\username\local-folder-path\medical-landmark-detection
 call python main.py -d runs -r unet2d_runs -p test -m unet2d -l u2net -ds cervical_spine -c runs/unet2d_runs/cervical_spine/checkpoints/trained_model.pt
 PAUSE nul | set /p "=<Hit Enter To Close Window>"
-'''
+</pre>
 
 This file can only be run after running the training BAT file. It has a similar structure than the training BAT file, so Lines 2, 6 and 7 can be edited using the same indications as provided above.
 
