@@ -1,0 +1,110 @@
+run_dir: 'runs'
+run_name: 'unet2d'
+
+epochs: 100
+cuda_devices: '0'
+seed: 42  # random seed
+
+display_freq: 1
+eval_freq: 5
+save_freq: 50
+
+checkpoint: ''
+
+use_background_channel: false
+
+# Data augmentation
+transform_params:
+    rotate_rate: 0.1
+    angle: 2
+    flip_rate: 0
+    axis: 1
+    translate_rate: 0.1
+    offsets: [10, 10]
+
+mix_step: 1
+
+dataset:
+    name_list: ['chest',
+                'cervical_spine']
+    loss_weights: [1, 1, 1, ]
+    batch_size_dic:
+        chest: 4
+        cervical_spine: 4
+    chest:
+        prefix: 'data/chest'
+        sigma: 3
+        num_landmark: 6
+        size: [512, 512]
+        use_abnormal: False
+        chest_set: ['CHN']
+    cervical_spine:
+        prefix: 'data/spine/cervical'
+        sigma: 3
+        num_landmark: 7
+        size: [512, 512]
+
+dataloader:
+    train:
+        batch_size: 1
+        # num_workers: 0
+        shuffle: true
+        drop_last: true
+    validate:
+        batch_size: 1
+        # num_workers: 1
+        shuffle: true
+        drop_last: true
+    test:
+        batch_size: 1
+        # num_workers: 1
+        shuffle: true
+
+chest_net:
+    in_channels: 1
+    out_channels: 6
+spine_net:
+    in_channels: 1
+    out_channels: 7
+    
+model: 'unet2d'  # which model to use
+
+gln:
+    localNet: 'unet2d'
+    globalNet_params:
+        scale_factor: 0.25
+        kernel_size: 3
+        dilations: [1, 2, 5, 2, 1]  
+
+gln2:
+    localNet: 'unet2d'
+    globalNet_params:
+        scale_factor: 0.25
+        kernel_size: 3
+        dilations: [1, 2, 5, 2, 1]
+
+learning:
+    loss: 'bce'
+    l1:
+        reduction: 'sum'
+    l2:
+        reduction: 'sum'
+    bce:
+        reduction: 'sum'
+    optim: 'adam'
+    adam: 
+        lr: 0.0001
+        weight_decay: 0.0001
+    use_scheduler: true
+    scheduler: 'cycliclr'
+    steplr:
+        step_size: 30
+        gamma: 0.5
+    cycliclr:
+        base_lr: 0.0001
+        max_lr: 0.01
+        step_size_up: 2000 # step_size_up = len(dataset)/batch_size * (2~10)
+        step_size_down: 2000 # same as step_size_up
+        mode: 'triangular2'
+        cycle_momentum: false
+        
