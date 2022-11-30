@@ -81,7 +81,7 @@ Two BAT files were defined to run the training and testing of the landmark detec
 #### Training BAT file (train.bat)
 The training BAT file has the following content:
 
-<pre>
+```
 @ECHO OFF
 call C:\Users\username\anaconda3\Scripts\activate.bat medical_landmark_detection_env
 ECHO #-----------------------------------------------------------------------------#
@@ -90,7 +90,7 @@ ECHO #--------------------------------------------------------------------------
 call cd C:\Users\username\local-folder-path\medical-landmark-detection
 call python main.py -d runs -r unet2d_runs -p train -m unet2d -e 50 -ds cervical_spine
 PAUSE nul | set /p "=<Hit Enter To Close Window>"
-</pre>
+```
 
 To allow it to run on your local computer, make sure to right click on train.bat, edit, and change the following sections:
 
@@ -115,7 +115,7 @@ To allow it to run on your local computer, make sure to right click on train.bat
 #### Testing BAT file (test.bat)
 The testing BAT file has the following content:
 
-<pre>
+```
 @ECHO OFF
 call C:\Users\username\anaconda3\Scripts\activate.bat medical_landmark_detection_env
 ECHO #-----------------------------------------------------------------------------#
@@ -124,7 +124,7 @@ ECHO #--------------------------------------------------------------------------
 call cd C:\Users\username\local-folder-path\medical-landmark-detection
 call python main.py -d runs -r unet2d_runs -p test -m unet2d -l u2net -ds cervical_spine -c runs/unet2d_runs/cervical_spine/checkpoints/trained_model.pt
 PAUSE nul | set /p "=<Hit Enter To Close Window>"
-</pre>
+```
 
 This file can only be run after running the training BAT file. It has a similar structure than the training BAT file, so Lines 2, 6 and 7 can be edited using the same indications as provided above.
 
