@@ -14,6 +14,11 @@ The selected architecture is a Multiscale Pyramid 2D Convolutional Neural Networ
 
 ## Instructions
 
+### Download Project Directory
+Go to https://download-directory.github.io/
+
+Copy/paste the link of this project into the URL bar, then press enter to download the project’s directory.
+
 ### Requirements
 Create a new Python 3.10 environment and install requirements.txt within this environment.
 You will also need to run the following commands to install PyTorch and torchvision:

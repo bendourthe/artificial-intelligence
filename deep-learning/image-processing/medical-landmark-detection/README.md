@@ -14,6 +14,11 @@ The selected architecture is composed of a local and global network [1]. The loc
 
 ## Instructions
 
+### Download Project Directory
+Go to https://download-directory.github.io/
+
+Copy/paste the link of this project into the URL bar, then press enter to download the project’s directory.
+
 ### Requirements
 Create a new Conda Python 3.10 environment (example environment name: medical_landmark_detection_env) and install requirements.txt within this environment.
 You will also need to run the following commands to install PyTorch and torchvision:
