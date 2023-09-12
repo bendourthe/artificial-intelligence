@@ -4,7 +4,7 @@ ___
 ___
 <center><em>For more information, visit <a href='https://www.dourthe-technologies.com'> www.dourthe-technologies.com</a></em></center>
 
-# Llama-2 Local Inference in Jupyter Noteboo
+# Llama-2 Local Inference in Jupyter Notebook
 
 This notebook enables you to harness the power of the Llama-2 large language model, boasting an impressive 7 billion parameters, for text generation tasks. With this tool, you can define custom prompts and run Llama-2 locally on your own GPU, ensuring both privacy and control over your data.
 
